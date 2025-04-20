@@ -1,0 +1,9 @@
+{
+  "hewan": {
+    "A": ["ayam", "anoa", "angsa", "aligator", "armadillo"],
+    "B": ["babi", "burung", "banteng", "bekantan", "buaya"],
+    "C": ["cicak", "cacing", "cheetah", "capung", "cumi"],
+    "Z": ["zebra", "zooplankton", "zebu", "zander", "zokor"],
+    "T": ["tikus", "trenggiling", "tapir", "tarantula", "tuna"]
+  }
+}
