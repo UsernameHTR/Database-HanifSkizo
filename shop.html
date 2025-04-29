@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Utama</a></li>
+      <li><a href="shop.html" class="active">Langganan</a></li>
+      <li><a href="update.html">Informasi</a></li>
+    </ul>
+  </nav>
+</header>
+    <title>Hanif Store - Shop</title>
+    <style>
+        :root {
+            --primary-blue: #007bff;
+            --light-blue: #e0f2ff;
+            --dark-blue: #0a1a38;
+            --text-color: #333;
+            --light-text-color: #f0f0f0;
+            --card-bg: rgba(255, 255, 255, 0.9);
+            --card-border: rgba(0, 123, 255, 0.3);
+            --selected-card-border: var(--primary-blue);
+            --selected-card-bg: rgba(0, 123, 255, 0.1);
+            --error-color: #dc3545;
+            --success-color: #28a745;
+            --discount-color: #e0f2ff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, var(--dark-blue), #1e90ff);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #e0f2ff;
+  padding: 10px;
+  text-align: center;
+  z-index: 999;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li a {
+  color: #000000; /* Putih */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+header nav ul li a:hover {
+  color: #DDDDDD; /* Abu-abu muda saat hover */
+}
+
+header nav ul li a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #007bff; /* Garis putih di bawah teks aktif */
+  padding-bottom: 5px;
+}
+        .container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 700px;
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+            color: var(--text-color);
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--dark-blue);
+            margin-bottom: 30px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: var(--light-blue);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: var(--dark-blue);
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid rgba(0, 123, 255, 0.3);
+            padding-bottom: 10px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-color);
+            font-weight: bold;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            background-color: #fff;
+            color: var(--text-color);
+            font-size: 1em;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+        }
+
+        .error-message {
+            color: var(--error-color);
+            font-size: 0.9em;
+            margin-top: 5px;
+            display: none;
+        }
+
+         .success-message {
+            color: var(--success-color);
+            font-size: 0.9em;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .option-card {
+            background-color: var(--card-bg);
+            border: 2px solid var(--card-border);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .option-card:hover {
+            background-color: rgba(255, 255, 255, 1);
+            border-color: rgba(0, 123, 255, 0.5);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .option-card.selected {
+            background-color: var(--selected-card-bg);
+            border-color: var(--selected-card-border);
+            box-shadow: 0 0 15px rgba(0, 123, 255, 0.4);
+        }
+
+        .option-card h3 {
+            margin-top: 0;
+            color: var(--dark-blue);
+        }
+
+        .option-card p {
+            color: var(--text-color);
+            font-size: 1.1em;
+        }
+
+        .duration-options {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .duration-option-card {
+            background-color: var(--card-bg);
+            border: 2px solid var(--card-border);
+            border-radius: 10px;
+            padding: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .duration-option-card:hover {
+             background-color: rgba(255, 255, 255, 1);
+             border-color: rgba(0, 123, 255, 0.5);
+             transform: translateY(-3px);
+             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .duration-option-card.selected {
+             background-color: var(--selected-card-bg);
+             border-color: var(--selected-card-border);
+             box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+        }
+
+        .duration-info {
+            flex-grow: 1;
+        }
+
+        .duration-info h4 {
+            margin: 0 0 5px 0;
+            color: var(--dark-blue);
+        }
+
+        .duration-info .prices {
+            font-size: 1.1em;
+            color: var(--text-color);
+        }
+
+        .duration-info .prices .original-price {
+            text-decoration: line-through;
+            color: rgba(0, 0, 0, 0.6);
+            margin-right: 8px;
+            font-size: 0.9em;
+        }
+         .duration-info .prices .current-price {
+             font-weight: bold;
+         }
+
+        .discount-label {
+            position: absolute;
+            top: 10px;
+            right: -5px;
+            background-color: var(--discount-color);
+            color: var(--dark-blue);
+            padding: 5px 15px;
+            font-size: 0.8em;
+            font-weight: bold;
+            transform: rotate(13deg);
+            transform-origin: top right;
+            overflow: hidden;
+            z-index: 10;
+            border-bottom-left-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+         .discount-label::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -10px;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 10px solid #ffb300;
+            transform: rotate(-45deg);
+         }
+
+
+        .quantity-control {
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            margin-left: 20px;
+            flex-shrink: 0;
+        }
+
+        .quantity-control button {
+            background-color: var(--primary-blue);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.2s ease;
+        }
+
+        .quantity-control button:disabled {
+            background-color: rgba(0, 123, 255, 0.5);
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .quantity-control button:hover:not(:disabled) {
+            background-color: #0056b3;
+        }
+
+        .quantity-control span {
+            padding: 0 15px;
+            font-size: 1.1em;
+            color: var(--text-color);
+        }
+
+        .voucher-input-group {
+             display: flex;
+             gap: 10px;
+             margin-bottom: 10px;
+        }
+        .voucher-input-group input {
+             flex-grow: 1;
+        }
+         .voucher-input-group button {
+             padding: 10px 20px;
+             background-color: var(--primary-blue);
+             color: white;
+             border: none;
+             border-radius: 8px;
+             cursor: pointer;
+             font-size: 1em;
+             transition: background-color 0.3s ease;
+             flex-shrink: 0;
+         }
+         .voucher-input-group button:hover {
+             background-color: #0056b3;
+         }
+         .voucher-message {
+             font-size: 0.9em;
+             margin-top: 5px;
+         }
+         .voucher-message.error { color: var(--error-color); }
+         .voucher-message.success { color: var(--success-color); }
+
+
+        .payment-options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .payment-option-card {
+            background-color: #fff;
+            border: 2px solid var(--card-border);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            aspect-ratio: 1 / 1;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .payment-option-card:hover {
+             background-color: #f8f9fa;
+             border-color: rgba(0, 123, 255, 0.5);
+             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+        }
+
+         .payment-option-card.selected {
+             background-color: var(--selected-card-bg);
+             border-color: var(--selected-card-border);
+             box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+        }
+
+        .payment-option-card.disabled {
+             opacity: 0.5;
+             cursor: not-allowed;
+             pointer-events: none;
+             background-color: #e9ecef;
+             border-color: #ced4da;
+             box-shadow: none;
+        }
+
+        .payment-option-card img {
+            max-width: 80%;
+            max-height: 80%;
+            display: block;
+            margin: auto;
+            object-fit: contain;
+        }
+
+        .checkout-button-container {
+            text-align: right;
+            margin-top: 30px;
+        }
+
+        #checkButton {
+            background-color: var(--success-color);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease, opacity 0.3s ease;
+        }
+
+        #checkButton:disabled {
+            background-color: #a3d3b1;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        #checkButton:hover:not(:disabled) {
+            background-color: #218838;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(10, 26, 56, 0.8);
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .modal-overlay.visible {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .modal-content {
+            background-color: var(--dark-blue);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            color: var(--light-text-color);
+            position: relative;
+            max-width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.visible .modal-content {
+            transform: scale(1);
+        }
+
+        #descriptionModalContent {
+            max-width: 700px;
+            width: 90%;
+        }
+
+
+        .modal-content .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            font-size: 1.5em;
+            color: rgba(240, 240, 240, 0.7);
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .modal-content .close-button:hover {
+            color: var(--light-text-color);
+        }
+
+        .modal-content h3 {
+            margin-top: 0;
+            color: var(--primary-blue);
+            border-bottom: 1px solid rgba(0, 123, 255, 0.3);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .modal-content p {
+            color: rgba(240, 240, 240, 0.8);
+            line-height: 1.6;
+        }
+
+        .summary-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .summary-card h4 {
+            margin-top: 0;
+            color: var(--light-text-color);
+            text-align: center;
+            border-bottom: 1px solid rgba(240, 240, 240, 0.2);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .summary-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            color: var(--light-text-color);
+        }
+
+        .summary-item span:first-child {
+             font-weight: bold;
+        }
+
+         .summary-item.discount-row {
+             color: var(--discount-color);
+             font-weight: bold;
+         }
+
+        .summary-total {
+            border-top: 1px solid rgba(240, 240, 240, 0.2);
+            margin-top: 15px;
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: var(--primary-blue);
+        }
+
+         .summary-admin {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1em;
+            color: rgba(240, 240, 240, 0.7);
+            margin-top: 10px;
+         }
+
+
+        .summary-checkout-button {
+            background-color: var(--success-color);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .summary-checkout-button:hover {
+            background-color: #218838;
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(10, 26, 56, 0.7);
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1001;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+         .loading-overlay.visible {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            border-top-color: var(--primary-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .particle-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 999;
+        }
+
+        .particle {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            pointer-events: none;
+            opacity: 0;
+            animation: fadeOut 1s ease-out forwards;
+        }
+
+        .particle.white {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .particle.gold {
+            background-color: gold;
+            box-shadow: 0 0 5px gold, 0 0 10px yellow;
+        }
+
+        @keyframes fadeOut {
+            0% { opacity: 1; transform: translate(0, 0) scale(1); }
+            100% { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(0.5); }
+        }
+
+        .description-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .description-list li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+            color: rgba(240, 240, 240, 0.9);
+        }
+
+        .description-list li::before {
+            content: '❏';
+            position: absolute;
+            left: 0;
+            color: var(--primary-blue);
+            font-weight: bold;
+        }
+
+         .description-list li.crossed-out {
+            text-decoration: line-through;
+            color: rgba(240, 240, 240, 0.5);
+         }
+
+        .description-list .event-title {
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            text-decoration: none;
+            color: var(--light-text-color);
+        }
+
+        .description-list .event-title::before {
+             content: '⭐';
+             color: gold;
+        }
+
+         .description-list li .event-detail {
+             font-style: italic;
+             font-size: 0.9em;
+             color: rgba(240, 240, 240, 0.7);
+         }
+
+         .description-list li .event-detail::before {
+             content: '- ';
+             color: rgba(240, 240, 240, 0.7);
+         }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>HANIF SKIZO STORE</h1>
+
+        <div class="section">
+            <h2>1. Data Diri</h2>
+            <div class="input-group">
+                <label for="name">Nama Lengkap</label>
+                <input type="text" id="name" placeholder="Masukkan nama Anda">
+                <div class="error-message" id="nameError">Nama hanya boleh berisi huruf dan spasi, maksimal 25 karakter.</div>
+            </div>
+            <div class="input-group">
+                <label for="phone">Nomor Telepon</label>
+                <input type="tel" id="phone" placeholder="Contoh: 081234567890">
+                 <div class="error-message" id="phoneError">Nomor telepon harus diawali 08, minimal 10 digit, maksimal 13 digit.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. Jenis Plan</h2>
+            <div class="options-grid">
+                <div class="option-card" data-plan="lite">
+                    <h3>Plan Lite</h3>
+                    <p>Tap untuk informasi</p>
+                </div>
+                <div class="option-card" data-plan="pro">
+                    <h3>Plan Pro</h3>
+                     <p>Tap untuk informasi</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3. Durasi Langganan</h2>
+             <div class="duration-options" id="durationOptions">
+                <p style="text-align: center; color: var(--text-color);">Pilih Plan terlebih dahulu.</p>
+             </div>
+        </div>
+
+         <div class="section">
+             <h2>4. Redeem Voucher</h2>
+             <div class="voucher-input-group">
+                 <input type="text" id="voucherCodeInput" placeholder="Masukkan kode voucher">
+                 <button id="redeemVoucherButton">Redeem</button>
+             </div>
+             <div class="voucher-message" id="voucherMessage"></div>
+         </div>
+
+        <div class="section">
+            <h2>5. Opsi Pembayaran</h2>
+            <div class="payment-options-grid">
+                <div class="payment-option-card" data-payment="dana">
+                     <img src="https://i.ibb.co.com/B13YMPR/dana.png" alt="Dana">
+                </div>
+                 <div class="payment-option-card" data-payment="ovo">
+                     <img src="https://i.ibb.co.com/TMV4qQXG/ovo.png" alt="OVO">
+                </div>
+                 <div class="payment-option-card" data-payment="gopay">
+                     <img src="https://i.ibb.co.com/d0YwXG07/2af55ff3-bdd-4633-b22a-4d686b008335.png" alt="Gopay">
+                </div>
+                 <div class="payment-option-card" data-payment="bank">
+                     <img src="https://i.ibb.co.com/qMmt6YmJ/images.png" alt="Bank">
+                </div>
+                <div class="payment-option-card" data-payment="qris">
+                     <img src="https://i.ibb.co.com/cKq8zSXM/qris.png" alt="Qris">
+                </div>
+            </div>
+        </div>
+
+        <div class="checkout-button-container">
+            <button id="checkButton" disabled>Cek</button>
+        </div>
+
+        <div class="particle-container" id="particleContainer"></div>
+
+    </div>
+
+    <div class="modal-overlay" id="descriptionModalOverlay">
+        <div class="modal-content" id="descriptionModalContent">
+            <button class="close-button" id="closeDescriptionModal">×</button>
+            <h3 id="descriptionModalTitle">Detail Plan</h3>
+            <div id="planDescriptionContent"></div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="summaryModalOverlay">
+        <div class="modal-content" id="summaryModalContent">
+             <button class="close-button" id="closeSummaryModal">×</button>
+             <h3>Ringkasan Pesanan</h3>
+             <div class="summary-card">
+                 <h4>HANIF SKIZO STORE</h4>
+                 <div class="summary-item"><span id="summaryDate"></span></div>
+                 <div class="summary-item"><span>ID Transaksi:</span> <span id="summaryTransactionId"></span></div>
+                 <div class="summary-item"><span>Nomor Telp:</span> <span id="summaryPhone"></span></div>
+                  <div class="summary-item"><span>Nama:</span> <span id="summaryName"></span></div>
+
+                  <hr style="border-color: rgba(240, 240, 240, 0.2); margin: 15px 0;">
+
+                 <div class="summary-item">
+                     <span id="summaryPlanDuration"></span>
+                     <span>x<span id="summaryQuantity"></span></span>
+                     <span id="summaryBaseSubtotal"></span>
+                 </div>
+
+                <div class="summary-item discount-row" id="summaryDiscountRow" style="display: none;">
+                    <span>Diskon Voucher (<span id="discountCodeUsed"></span>):</span>
+                    <span id="summaryDiscountAmount"></span>
+                </div>
+
+
+                 <div class="summary-admin" id="summaryAdminRow" style="display: none;">
+                     <span>Admin Fee (<span id="adminFeeType"></span>):</span>
+                     <span id="summaryAdminFee"></span>
+                 </div>
+
+                 <div class="summary-total">
+                     <span>Total:</span>
+                     <span id="summaryTotal"></span>
+                 </div>
+
+                 <button class="summary-checkout-button" id="confirmCheckoutButton">Checkout via WhatsApp</button>
+             </div>
+        </div>
+    </div>
+
+     <div class="loading-overlay" id="loadingOverlay">
+         <div class="spinner"></div>
+     </div>
+
+
+    <script>
+        const nameInput = document.getElementById('name');
+        const phoneInput = document.getElementById('phone');
+        const nameError = document.getElementById('nameError');
+        const phoneError = document.getElementById('phoneError');
+        const planCards = document.querySelectorAll('.option-card[data-plan]');
+        const durationOptionsContainer = document.getElementById('durationOptions');
+        const voucherCodeInput = document.getElementById('voucherCodeInput');
+        const redeemVoucherButton = document.getElementById('redeemVoucherButton');
+        const voucherMessage = document.getElementById('voucherMessage');
+        const paymentCards = document.querySelectorAll('.payment-option-card');
+        const checkButton = document.getElementById('checkButton');
+        const qrisPaymentCard = document.querySelector('.payment-option-card[data-payment="qris"]');
+
+        const descriptionModalOverlay = document.getElementById('descriptionModalOverlay');
+        const descriptionModalContent = document.getElementById('planDescriptionContent');
+        const descriptionModalTitle = document.getElementById('descriptionModalTitle');
+        const closeDescriptionModalButton = document.getElementById('closeDescriptionModal');
+
+        const summaryModalOverlay = document.getElementById('summaryModalOverlay');
+        const summaryModalContent = document.getElementById('summaryModalContent');
+        const closeSummaryModalButton = document.getElementById('closeSummaryModal');
+        const summaryDate = document.getElementById('summaryDate');
+        const summaryTransactionId = document.getElementById('summaryTransactionId');
+        const summaryPhone = document.getElementById('summaryPhone');
+        const summaryName = document.getElementById('summaryName');
+        const summaryPlanDuration = document.getElementById('summaryPlanDuration');
+        const summaryQuantity = document.getElementById('summaryQuantity');
+        const summaryBaseSubtotalSpan = document.getElementById('summaryBaseSubtotal');
+        const summaryDiscountRow = document.getElementById('summaryDiscountRow');
+        const discountCodeUsedSpan = document.getElementById('discountCodeUsed');
+        const summaryDiscountAmount = document.getElementById('summaryDiscountAmount');
+        const summaryAdminRow = document.getElementById('summaryAdminRow');
+        const adminFeeTypeSpan = document.getElementById('adminFeeType');
+        const summaryAdminFee = document.getElementById('summaryAdminFee');
+        const summaryTotal = document.getElementById('summaryTotal');
+        const confirmCheckoutButton = document.getElementById('confirmCheckoutButton');
+
+        const loadingOverlay = document.getElementById('loadingOverlay');
+        const particleContainer = document.getElementById('particleContainer');
+
+        let selectedPlan = null;
+        let selectedDuration = null;
+        let quantity = 1;
+        let selectedPayment = null;
+
+        let userName = '';
+        let userPhone = '';
+        let transactionId = '';
+
+        let baseSubtotal = 0;
+        let voucherDiscountAmount = 0;
+        let adminFee = 0;
+        let finalTotal = 0;
+
+        let isVoucherApplied = false;
+
+        const prices = {
+            lite: {
+                weekly: 5000,
+                monthly: 15000,
+                yearly: 200000
+            },
+            pro: {
+                weekly: 15000,
+                monthly: 60000,
+                yearly: 450000
+            }
+        };
+
+        const originalPrices = {
+             lite: { weekly: 10000, monthly: 40000, yearly: 480000 },
+             pro: { weekly: 20000, monthly: 80000, yearly: 960000 }
+        };
+
+        const discounts = {};
+        for (const plan in originalPrices) {
+            discounts[plan] = {};
+            for (const duration in originalPrices[plan]) {
+                const original = originalPrices[plan][duration];
+                const current = prices[plan][duration];
+                if (original > current) {
+                    discounts[plan][duration] = Math.round(((original - current) / original) * 100);
+                }
+            }
+        }
+
+        const durationTextMap = {
+            weekly: 'Minggu',
+            monthly: 'Bulan',
+            yearly: 'Tahun'
+        };
+
+        const VOUCHER_CODE = 'EmiliaAI50%';
+        const VOUCHER_DISCOUNT_PERCENT = 0.5;
+        const VOUCHER_MIN_PURCHASE = 50000;
+        const VOUCHER_MAX_DISCOUNT_AMOUNT = 250000;
+
+        const paymentFees = {
+             qris: 3000,
+             dana: 0,
+             ovo: 0,
+             gopay: 0,
+             bank: 0
+        };
+        const QRIS_MAX_AMOUNT = 100000;
+
+        const planDescriptions = {
+            lite: {
+                title: "Detail Plan Lite",
+                features: [
+                    { text: "Chatbot Tanpa Batas" }, { text: "Memori AI Cukup Baik" }, { text: "Respon Cepat" },
+                    { text: "Akses Fitur Terkunci" }, { text: "Konsultasi" }, { text: "Update Reguler" },
+                    { text: "Dukungan Prioritas (Jam Kerja)" }, { text: "Akses ke Konten Premium" },
+                    { text: "Notifikasi Update" }, { text: "Fitur Dasar" },
+                    { text: "✗ Auto Klaim Harian", crossed: true }, { text: "✗ Integrasi dengan group lain", crossed: true },
+                    { text: "✗ Sewa Bot", crossed: true }, { text: "✗ Prioritas Dukungan 24/7", crossed: true },
+                    { text: "✗ Konsultasi Pribadi", crossed: true }, { text: "✗ Request Fitur", crossed: true },
+                    { text: "✗ Akses ke Event Eksklusif", crossed: true }
+                ]
+            },
+            pro: {
+                title: "Detail Plan Pro",
+                 features: [
+                    { text: "Chatbot Tanpa Batas" }, { text: "Memori AI Lebih Baik" }, { text: "Respon Cepat" },
+                    { text: "Akses Fitur Terkunci" }, { text: "Konsultasi" }, { text: "Update Reguler" },
+                    { text: "Dukungan Prioritas 24/7" }, { text: "Akses ke Konten Premium" },
+                    { text: "Auto Klaim Harian" }, { text: "Notifikasi Update" }, { text: "Fitur Lanjutan" },
+                    { text: "Integrasi dengan group Lain" }, { text: "Sewa Bot" }, { text: "Prioritas Dukungan" },
+                    { text: "Konsultasi Pribadi" }, { text: "Request Fitur" }, { text: "Akses ke Event Eksklusif" },
+                    { text: "Akses ke Konten Eksklusif" }
+                 ],
+                 event: [
+                    { text: "ENERGY HARIAN: 500", eventDetail: true }, { text: "MAX CHARGE: 3000", eventDetail: true },
+                    { text: "CHARGE RATE: 1.0", eventDetail: true }, { text: "BONUS ENERGI: +100 setiap hari", eventDetail: true },
+                    { text: "AKSES KE EVENT EKSLUSIF", eventDetail: true }
+                 ]
+            }
+        };
+
+
+        function formatPrice(price) {
+             const numPrice = typeof price === 'number' ? price : parseFloat(price) || 0;
+            return new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR', minimumFractionDigits: 0 }).format(numPrice);
+        }
+
+         function showModal(overlay) {
+             overlay.classList.add('visible');
+         }
+
+         function hideModal(overlay) {
+             overlay.classList.remove('visible');
+         }
+
+        function updateCheckButtonState() {
+            const isNameValid = nameInput.value.trim() !== '' && !nameError.style.display.includes('block');
+            const isPhoneValid = phoneInput.value.trim() !== '' && !phoneError.style.display.includes('block');
+            const isPlanSelected = selectedPlan !== null;
+            const isDurationSelected = selectedDuration !== null;
+            const isPaymentSelected = selectedPayment !== null;
+
+            checkButton.disabled = !(isNameValid && isPhoneValid && isPlanSelected && isDurationSelected && isPaymentSelected);
+
+            if (!checkButton.disabled) {
+                 checkButton.textContent = 'Cek';
+            } else {
+                 checkButton.textContent = 'Lengkapi Data';
+            }
+        }
+
+         function calculateBaseSubtotal() {
+             if (!selectedPlan || !selectedDuration) return 0;
+             const pricePerUnit = prices[selectedPlan][selectedDuration];
+             return pricePerUnit * quantity;
+         }
+
+         function updateQrisState(subtotalAfterVoucher) {
+             const qrisLimit = QRIS_MAX_AMOUNT;
+             const potentialTotalWithQrisFee = subtotalAfterVoucher + paymentFees.qris;
+
+             if (potentialTotalWithQrisFee > qrisLimit) {
+                 qrisPaymentCard.classList.add('disabled');
+                 if (selectedPayment === 'qris') {
+                     qrisPaymentCard.classList.remove('selected');
+                     selectedPayment = null;
+                     updateCheckButtonState();
+                 }
+             } else {
+                 qrisPaymentCard.classList.remove('disabled');
+             }
+         }
+
+
+        function displayDurationOptions(plan) {
+            durationOptionsContainer.innerHTML = '';
+            if (!plan) {
+                 durationOptionsContainer.innerHTML = '<p style="text-align: center; color: var(--text-color);">Pilih Plan terlebih dahulu.</p>';
+                 return;
+            }
+
+            const durations = {
+                weekly: '1 Minggu',
+                monthly: '1 Bulan',
+                yearly: '1 Tahun'
+            };
+
+            for (const key in durations) {
+                const durationKey = key;
+                const durationText = durations[key];
+                const currentPrice = prices[plan][durationKey];
+                const originalPrice = originalPrices[plan][durationKey];
+                const discountPercent = discounts[plan]?.[durationKey];
+
+                const optionCard = document.createElement('div');
+                optionCard.classList.add('duration-option-card');
+                optionCard.dataset.duration = durationKey;
+                 optionCard.dataset.price = currentPrice;
+
+                let pricesHtml = `<span class="current-price">${formatPrice(currentPrice)}</span>`;
+                let discountHtml = '';
+
+                if (discountPercent) {
+                     pricesHtml = `<span class="original-price">${formatPrice(originalPrice)}</span> ${pricesHtml}`;
+                     discountHtml = `<div class="discount-label">${discountPercent}% OFF</div>`;
+                }
+
+
+                optionCard.innerHTML = `
+                    <div class="duration-info">
+                        <h4>${durationText}</h4>
+                        <p class="prices">${pricesHtml}</p>
+                    </div>
+                    ${discountHtml}
+                    <div class="quantity-control" style="display: none;">
+                        <button class="quantity-minus" data-action="minus">-</button>
+                        <span class="quantity-value">1</span>
+                        <button class="quantity-plus" data-action="plus">+</button>
+                    </div>
+                `;
+
+                durationOptionsContainer.appendChild(optionCard);
+            }
+
+            attachDurationListeners();
+            attachQuantityListeners();
+
+            selectedDuration = null;
+            quantity = 1;
+            resetVoucherState();
+            updateQrisState(0);
+            updateCheckButtonState();
+        }
+
+         function showPlanDescription(plan) {
+             const description = planDescriptions[plan];
+             if (!description) return;
+
+             descriptionModalTitle.textContent = description.title;
+             let html = '<ul class="description-list">';
+
+             description.features.forEach(item => {
+                 html += `<li ${item.crossed ? 'class="crossed-out"' : ''}>${item.text}</li>`;
+             });
+
+             if (description.event && description.event.length > 0) {
+                 html += `<li class="event-title">EVENT ${plan.toUpperCase()}</li>`;
+                 description.event.forEach(item => {
+                      html += `<li ${item.crossed ? 'class="crossed-out"' : ''}><span class="event-detail">${item.text}</span></li>`;
+                 });
+             }
+
+             html += '</ul>';
+             descriptionModalContent.innerHTML = html;
+             showModal(descriptionModalOverlay);
+         }
+
+        let particleTimer = null;
+        let isHolding = false;
+        let particleInterval = null;
+
+        function startParticles(event, colorClass) {
+            if (isHolding) return;
+            isHolding = true;
+
+            particleTimer = setTimeout(() => {
+                particleInterval = setInterval(() => {
+                    createParticle(event, colorClass);
+                }, 50);
+            }, 400);
+        }
+
+        function stopParticles() {
+            clearTimeout(particleTimer);
+            clearInterval(particleInterval);
+            isHolding = false;
+        }
+
+        function createParticle(event, colorClass) {
+            const startX = event.clientX || (event.touches && event.touches[0].clientX) || 0;
+            const startY = event.clientY || (event.touches && event.touches[0].clientY) || 0;
+             const containerRect = particleContainer.getBoundingClientRect();
+
+            const particle = document.createElement('div');
+            particle.classList.add('particle', colorClass);
+            particle.style.left = `${startX - containerRect.left}px`;
+            particle.style.top = `${startY - containerRect.top}px`;
+
+            const angle = Math.random() * 2 * Math.PI;
+            const distance = Math.random() * 100 + 50;
+            const endX = distance * Math.cos(angle);
+            const endY = distance * Math.sin(angle);
+
+            particle.style.setProperty('--dx', `${endX}px`);
+            particle.style.setProperty('--dy', `${endY}px`);
+
+            particleContainer.appendChild(particle);
+
+            setTimeout(() => {
+                 if (particle.parentElement) {
+                     particle.parentElement.removeChild(particle);
+                 }
+            }, 1000);
+        }
+
+         function resetVoucherState() {
+             isVoucherApplied = false;
+             voucherDiscountAmount = 0;
+             voucherMessage.textContent = '';
+             voucherMessage.className = 'voucher-message';
+             voucherCodeInput.value = '';
+         }
+
+         function calculateVoucherDiscount(currentBaseSubtotal) {
+             if (!isVoucherApplied || currentBaseSubtotal < VOUCHER_MIN_PURCHASE) {
+                 return 0;
+             }
+
+             const potentialDiscount = currentBaseSubtotal * VOUCHER_DISCOUNT_PERCENT;
+             const effectiveDiscount = Math.min(potentialDiscount, VOUCHER_MAX_DISCOUNT_AMOUNT);
+
+             return effectiveDiscount;
+         }
+
+         redeemVoucherButton.addEventListener('click', () => {
+             const inputCode = voucherCodeInput.value.trim();
+             voucherMessage.textContent = '';
+             voucherMessage.className = 'voucher-message';
+
+             if (inputCode === VOUCHER_CODE) {
+                 const currentBaseSubtotal = calculateBaseSubtotal();
+
+                 if (currentBaseSubtotal === 0) {
+                      voucherMessage.textContent = 'Pilih Plan dan Durasi terlebih dahulu.';
+                      voucherMessage.classList.add('error');
+                       isVoucherApplied = false;
+                       voucherDiscountAmount = 0;
+                      return;
+                 }
+
+                  const potentialDiscount = currentBaseSubtotal * VOUCHER_DISCOUNT_PERCENT;
+                  const effectiveDiscount = Math.min(potentialDiscount, VOUCHER_MAX_DISCOUNT_AMOUNT);
+
+                 if (currentBaseSubtotal < VOUCHER_MIN_PURCHASE) {
+                      voucherMessage.textContent = `Voucher "${VOUCHER_CODE}" membutuhkan minimal pembelian ${formatPrice(VOUCHER_MIN_PURCHASE)}. Belum memenuhi syarat.`;
+                      voucherMessage.classList.add('error');
+                      isVoucherApplied = true;
+                      voucherDiscountAmount = 0;
+                 } else {
+                      isVoucherApplied = true;
+                      voucherDiscountAmount = effectiveDiscount;
+                      voucherMessage.textContent = `Voucher "${VOUCHER_CODE}" berhasil diterapkan! Diskon: ${formatPrice(voucherDiscountAmount)}.`;
+                      voucherMessage.classList.add('success');
+                 }
+
+             } else if (inputCode === '') {
+                  voucherMessage.textContent = 'Masukkan kode voucher.';
+                  voucherMessage.classList.add('error');
+                  resetVoucherState();
+             }
+             else {
+                 voucherMessage.textContent = 'Kode voucher tidak valid.';
+                 voucherMessage.classList.add('error');
+                 resetVoucherState();
+             }
+
+              const tempBaseSubtotal = calculateBaseSubtotal();
+              const tempDiscount = calculateVoucherDiscount(tempBaseSubtotal);
+              const subtotalAfterVoucher = tempBaseSubtotal - tempDiscount;
+             updateQrisState(subtotalAfterVoucher);
+             updateCheckButtonState();
+         });
+
+        nameInput.addEventListener('input', function() {
+            let value = this.value;
+            value = value.replace(/[^a-zA-Z\s]/g, '');
+            if (value.length > 25) {
+                 value = value.substring(0, 25);
+                 nameError.textContent = 'Nama maksimal 25 karakter.';
+                 nameError.style.display = 'block';
+            } else {
+                 nameError.style.display = 'none';
+            }
+            this.value = value;
+            userName = this.value.trim();
+            updateCheckButtonState();
+        });
+
+        phoneInput.addEventListener('input', function() {
+            let value = this.value;
+            value = value.replace(/\D/g, '');
+            let isValid = true;
+            if (value.length > 0 && !value.startsWith('08')) {
+                isValid = false;
+            } else if (value.length > 0 && value.length < 10) {
+                 isValid = false;
+            } else if (value.length > 13) {
+                 value = value.substring(0, 13);
+                 if (!value.startsWith('08') || value.length < 10 || value.length > 13) {
+                     isValid = false;
+                 } else {
+                     isValid = true;
+                 }
+            }
+            this.value = value;
+            userPhone = this.value.trim();
+
+            if (!isValid && this.value.length > 0) {
+                 phoneError.textContent = 'Nomor telepon tidak valid. Harus diawali 08, min 10, max 13 digit.';
+                 phoneError.style.display = 'block';
+            } else {
+                 phoneError.style.display = 'none';
+            }
+             if (this.value.length === 0) {
+                  phoneError.style.display = 'none';
+             }
+            updateCheckButtonState();
+        });
+
+        planCards.forEach(card => {
+            card.addEventListener('click', (e) => {
+                 if (e.target === card || e.target.closest('.option-card') === card) {
+                     planCards.forEach(c => c.classList.remove('selected'));
+                     card.classList.add('selected');
+                     selectedPlan = card.dataset.plan;
+                     displayDurationOptions(selectedPlan);
+                     selectedDuration = null;
+                     quantity = 1;
+                     selectedPayment = null;
+                     paymentCards.forEach(c => c.classList.remove('selected'));
+                     resetVoucherState();
+                     updateQrisState(0);
+                     updateCheckButtonState();
+                     showPlanDescription(selectedPlan);
+                 }
+            });
+
+             card.addEventListener('mousedown', function(e) {
+                if (e.button === 0 && (e.target === this || e.target.closest('.option-card') === this)) {
+                    const color = this.dataset.plan === 'pro' ? 'gold' : 'white';
+                    startParticles(e, color);
+                }
+             });
+             card.addEventListener('mouseup', stopParticles);
+             card.addEventListener('mouseleave', stopParticles);
+             card.addEventListener('touchstart', function(e) {
+                 if (e.target === this || e.target.closest('.option-card') === this) {
+                     const color = this.dataset.plan === 'pro' ? 'gold' : 'white';
+                     startParticles(e, color);
+                 }
+             }, { passive: true });
+             card.addEventListener('touchend', stopParticles);
+             card.addEventListener('touchcancel', stopParticles);
+        });
+
+        closeDescriptionModalButton.addEventListener('click', () => hideModal(descriptionModalOverlay));
+        descriptionModalOverlay.addEventListener('click', (e) => {
+             if (e.target === descriptionModalOverlay) {
+                 hideModal(descriptionModalOverlay);
+             }
+        });
+
+        function attachDurationListeners() {
+             document.querySelectorAll('.duration-option-card').forEach(card => {
+                 card.addEventListener('click', function(event) {
+                    if (event.target.closest('.quantity-control')) return;
+
+                     document.querySelectorAll('.duration-option-card').forEach(c => {
+                         c.classList.remove('selected');
+                         const qtyControl = c.querySelector('.quantity-control');
+                         if (qtyControl) qtyControl.style.display = 'none';
+                         const prevQuantitySpan = c.querySelector('.quantity-value');
+                         if (prevQuantitySpan) {
+                              prevQuantitySpan.textContent = '1';
+                              const minusButton = c.querySelector('.quantity-minus');
+                              if (minusButton) minusButton.disabled = true;
+                         }
+                     });
+
+                     card.classList.add('selected');
+                     selectedDuration = card.dataset.duration;
+                     quantity = 1;
+                     const qtyControl = card.querySelector('.quantity-control');
+                     if (qtyControl) qtyControl.style.display = 'flex';
+                     const quantitySpan = card.querySelector('.quantity-value');
+                     if (quantitySpan) quantitySpan.textContent = quantity;
+
+                      const currentBaseSubtotal = calculateBaseSubtotal();
+                      const tempDiscount = calculateVoucherDiscount(currentBaseSubtotal);
+                      const subtotalAfterVoucher = currentBaseSubtotal - tempDiscount;
+                     updateQrisState(subtotalAfterVoucher);
+                     updateCheckButtonState();
+                 });
+
+                card.addEventListener('mousedown', function(e) {
+                    if (e.button === 0 && !e.target.closest('.quantity-control')) {
+                         const color = selectedPlan === 'pro' ? 'gold' : 'white';
+                         startParticles(e, color);
+                    }
+                });
+                card.addEventListener('mouseup', stopParticles);
+                card.addEventListener('mouseleave', stopParticles);
+                 card.addEventListener('touchstart', function(e) {
+                      if (!e.target.closest('.quantity-control')) {
+                          const color = selectedPlan === 'pro' ? 'gold' : 'white';
+                          startParticles(e, color);
+                      }
+                 }, { passive: true });
+                 card.addEventListener('touchend', stopParticles);
+                 card.addEventListener('touchcancel', stopParticles);
+             });
+        }
+
+        function attachQuantityListeners() {
+            document.querySelectorAll('.quantity-control button').forEach(button => {
+                button.addEventListener('click', function(event) {
+                    event.stopPropagation();
+
+                    const action = this.dataset.action;
+                    const quantitySpan = this.parentElement.querySelector('.quantity-value');
+                    let currentQuantity = parseInt(quantitySpan.textContent);
+                    const minusButton = this.parentElement.querySelector('.quantity-minus');
+                    const plusButton = this.parentElement.querySelector('.quantity-plus');
+
+                    if (action === 'minus') {
+                        currentQuantity = Math.max(1, currentQuantity - 1);
+                    } else if (action === 'plus') {
+                        currentQuantity += 1;
+                    }
+
+                    quantity = currentQuantity;
+                    quantitySpan.textContent = quantity;
+
+                    minusButton.disabled = quantity === 1;
+
+                     const currentBaseSubtotal = calculateBaseSubtotal();
+                     const tempDiscount = calculateVoucherDiscount(currentBaseSubtotal);
+                     const subtotalAfterVoucher = currentBaseSubtotal - tempDiscount;
+                    updateQrisState(subtotalAfterVoucher);
+                    updateCheckButtonState();
+
+                     if (isVoucherApplied) {
+                         const inputCode = voucherCodeInput.value.trim();
+                         if (inputCode === VOUCHER_CODE) {
+                             const potentialDiscount = currentBaseSubtotal * VOUCHER_DISCOUNT_PERCENT;
+                             const effectiveDiscount = Math.min(potentialDiscount, VOUCHER_MAX_DISCOUNT_AMOUNT);
+
+                             if (currentBaseSubtotal < VOUCHER_MIN_PURCHASE) {
+                                  voucherMessage.textContent = `Voucher "${VOUCHER_CODE}" membutuhkan minimal pembelian ${formatPrice(VOUCHER_MIN_PURCHASE)}. Belum memenuhi syarat.`;
+                                  voucherMessage.classList.add('error');
+                                   isVoucherApplied = false;
+                                   voucherDiscountAmount = 0;
+                             } else {
+                                  voucherDiscountAmount = effectiveDiscount;
+                                  voucherMessage.textContent = `Voucher "${VOUCHER_CODE}" berhasil diterapkan! Diskon: ${formatPrice(voucherDiscountAmount)}.`;
+                                  voucherMessage.classList.add('success');
+                             }
+                         } else {
+                              resetVoucherState();
+                         }
+                     }
+                });
+
+                if (button.classList.contains('quantity-minus')) {
+                     const quantitySpan = button.parentElement.querySelector('.quantity-value');
+                     if (parseInt(quantitySpan.textContent) === 1) {
+                         button.disabled = true;
+                     }
+                }
+            });
+        }
+
+        paymentCards.forEach(card => {
+            card.addEventListener('click', () => {
+                if (card.classList.contains('disabled')) return;
+
+                paymentCards.forEach(c => c.classList.remove('selected'));
+                card.classList.add('selected');
+                selectedPayment = card.dataset.payment;
+
+                updateCheckButtonState();
+            });
+        });
+
+        checkButton.addEventListener('click', () => {
+             baseSubtotal = calculateBaseSubtotal();
+             voucherDiscountAmount = calculateVoucherDiscount(baseSubtotal);
+
+             const subtotalAfterVoucher = baseSubtotal - voucherDiscountAmount;
+
+             adminFee = 0;
+             if (selectedPayment && paymentFees[selectedPayment] !== undefined) {
+                  if (selectedPayment === 'qris') {
+                       if (subtotalAfterVoucher + paymentFees.qris <= QRIS_MAX_AMOUNT) {
+                            adminFee = paymentFees.qris;
+                       } else {
+                           qrisPaymentCard.classList.add('disabled');
+                           qrisPaymentCard.classList.remove('selected');
+                           selectedPayment = null;
+                           alert(`Pembayaran QRIS hanya berlaku untuk total di bawah ${formatPrice(QRIS_MAX_AMOUNT)}. Mohon pilih metode pembayaran lain.`);
+                           updateCheckButtonState();
+                           return;
+                       }
+                  } else {
+                      adminFee = paymentFees[selectedPayment];
+                  }
+             }
+
+             finalTotal = subtotalAfterVoucher + adminFee;
+
+             transactionId = `${Date.now()}${Math.floor(Math.random() * 1000)}`;
+
+             const now = new Date();
+             const dateOptions = { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', timeZoneName: 'shortOffset', timeZone: 'Asia/Jakarta' };
+             summaryDate.textContent = now.toLocaleDateString('id-ID', dateOptions);
+             summaryTransactionId.textContent = transactionId;
+             summaryPhone.textContent = userPhone;
+             summaryName.textContent = userName;
+
+             const durationText = durationTextMap[selectedDuration];
+             summaryPlanDuration.textContent = `Plan ${selectedPlan.charAt(0).toUpperCase() + selectedPlan.slice(1)}`;
+             summaryQuantity.textContent = quantity;
+             summaryBaseSubtotalSpan.textContent = `${quantity} ${durationText} - ${formatPrice(baseSubtotal)}`;
+
+             if (voucherDiscountAmount > 0) {
+                  summaryDiscountRow.style.display = 'flex';
+                  discountCodeUsedSpan.textContent = VOUCHER_CODE;
+                  summaryDiscountAmount.textContent = `- ${formatPrice(voucherDiscountAmount)}`;
+             } else {
+                  summaryDiscountRow.style.display = 'none';
+             }
+
+             if (adminFee > 0) {
+                  summaryAdminRow.style.display = 'flex';
+                  adminFeeTypeSpan.textContent = selectedPayment.toUpperCase();
+                  summaryAdminFee.textContent = formatPrice(adminFee);
+             } else {
+                  summaryAdminRow.style.display = 'none';
+             }
+
+             summaryTotal.textContent = formatPrice(finalTotal);
+
+             showModal(summaryModalOverlay);
+        });
+
+        closeSummaryModalButton.addEventListener('click', () => {
+            hideModal(summaryModalOverlay);
+        });
+         summaryModalOverlay.addEventListener('click', (e) => {
+             if (e.target === summaryModalOverlay) {
+                 hideModal(summaryModalOverlay);
+             }
+        });
+
+        confirmCheckoutButton.addEventListener('click', () => {
+             showModal(loadingOverlay);
+
+             const paymentMethodText = selectedPayment.charAt(0).toUpperCase() + selectedPayment.slice(1);
+
+             const planFormatted = selectedPlan.charAt(0).toUpperCase() + selectedPlan.slice(1);
+             const durationFormatted = durationTextMap[selectedDuration];
+             const baseSubtotalRaw = baseSubtotal;
+             const adminFeeRaw = adminFee;
+
+             let whatsappText = `Halo min, tolong cek transaksi punyaku dong:3\n`;
+             whatsappText += `Nama: ${userName}\n`;
+             whatsappText += `No Telp: ${userPhone}\n`;
+             whatsappText += `ID: ${transactionId}\n`;
+             whatsappText += `Plan: ${planFormatted} ${quantity} ${durationFormatted} - ${baseSubtotalRaw}\n`;
+             if (voucherDiscountAmount > 0) {
+                 whatsappText += `Diskon Voucher: ${voucherDiscountAmount}\n`;
+             }
+             whatsappText += `Harga Admin: ${adminFeeRaw}\n`;
+             whatsappText += `Jenis Pembayaran: ${paymentMethodText}`;
+
+             const encodedText = encodeURIComponent(whatsappText);
+
+             const whatsappUrl = `https://wa.me/6283147309847?text=${encodedText}`;
+
+             setTimeout(() => {
+                 hideModal(loadingOverlay);
+                 window.location.href = whatsappUrl;
+             }, 3000);
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+             updateCheckButtonState();
+             displayDurationOptions(null);
+             summaryDiscountRow.style.display = 'none';
+             summaryAdminRow.style.display = 'none';
+             updateQrisState(0);
+        });
+
+         nameError.style.display = 'none';
+         phoneError.style.display = 'none';
+    </script>
+
+</body>
+</html>
