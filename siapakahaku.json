@@ -1,1512 +1,1357 @@
 [
   {
     "index": 0,
-    "soal": "Tempat, Tiket, PopCorn, Film, Gedung",
-    "jawaban": "BIOSKOP"
+    "soal": "Aku adalah sebuah kerajinan tangan. Aku memiliki bentuk seperti wajah manusia.",
+    "jawaban": "Topeng"
   },
   {
     "index": 1,
-    "soal": "Profesi, Laut, Jaring, Ikan, Perahu",
-    "jawaban": "NELAYAN"
+    "soal": "Aku menggunakan seragam coklat. Aku bertugas mengayomi masyarakat.",
+    "jawaban": "Polisi"
   },
   {
     "index": 2,
-    "soal": "Sepatu, Net, Raket, Kok",
-    "jawaban": "BULUTANGKIS"
+    "soal": "Aku sangat sepi pada malam hari. Aku selalu didatangi orang pada hari tertentu. Aku adalah sebuah tempat untuk beristirahat yang panjang.",
+    "jawaban": "Kuburan"
   },
   {
     "index": 3,
-    "soal": "Botol, Buah-buahan, Sayuran, Dingin",
-    "jawaban": "KULKAS"
+    "soal": "Aku disukai anak-anak untuk sarapan. Aku sering ada di dalam roti. Kebanyakan rasa aku adalah stroberi atau nanas.",
+    "jawaban": "Selai"
   },
   {
     "index": 4,
-    "soal": "Rusa, Hutan, Senapan, Target",
-    "jawaban": "PEMBURU"
+    "soal": "Aku tidak terlihat. Hanya orang-orang tertentu yang dapat melihat saya. Aku juga sangat menarik untuk diperbincangkan.",
+    "jawaban": "Hantu"
   },
   {
     "index": 5,
-    "soal": "Malam, Kasur, Bantal, Merem",
-    "jawaban": "TIDUR"
+    "soal": "Aku berada di dalam tubuh manusia. Aku keluar jika ada yang terluka. Aku berwarna merah.",
+    "jawaban": "Darah"
   },
   {
     "index": 6,
-    "soal": "Listrik, Antena, Siaran, Remot",
-    "jawaban": "TELEVISI"
+    "soal": "Aku sejenis binatang. Semua bagian tubuh aku ada di kepala. Aku bisa menyebabkan gatal.",
+    "jawaban": "Kutu"
   },
   {
     "index": 7,
-    "soal": "Jalan, Sirine, Orang Sakit, Cepat",
-    "jawaban": "AMBULAN"
+    "soal": "Tubuh aku panjang, tapi aku bukan ular. Aku bisa mengikat apa saja.",
+    "jawaban": "Tali"
   },
   {
     "index": 8,
-    "soal": "Keju, Sapi, Gelas, Bayi",
-    "jawaban": "SUSU"
+    "soal": "Aku tumbuh di daerah pegunungan. Aku sejenis sayuran. Aku berwarna hijau dan bisa juga ungu. Aku memiliki bentuk yang bulat.",
+    "jawaban": "Kubis"
   },
   {
     "index": 9,
-    "soal": "Uang, Bayar, Saku, Kartu ATM",
-    "jawaban": "DOMPET"
+    "soal": "Aku dipakai di kepala. Tidak sembarangan orang bisa memakainya. Aku terbuat dari emas dengan batu mulia di sekelilingnya.",
+    "jawaban": "Mahkota"
   },
   {
     "index": 10,
-    "soal": "Benda, Maling, Tangan, Polisi, Kunci",
-    "jawaban": "BORGOL"
+    "soal": "Aku terbuat dari kain. Bentuk aku bermacam-macam, aku untuk menutupi jendela.",
+    "jawaban": "Tirai"
   },
   {
     "index": 11,
-    "soal": "Profesi, Kaca pembesar, Misteri",
-    "jawaban": "DETEKTIF"
+    "soal": "Bentukku bisa padat atau cair. Jika digosok aku akan berbuih. Aku ada di kamar mandi.",
+    "jawaban": "Sabun"
   },
   {
     "index": 12,
-    "soal": "Benda, Tajam, Potong Buah",
-    "jawaban": "PISAU"
+    "soal": "Tubuhku keras dan panjang. Rasaku manis, tapi aku bukan gula.",
+    "jawaban": "Tebu"
   },
   {
     "index": 13,
-    "soal": "Tempat, Lapar, Makan, Koki, Daftar Harga",
-    "jawaban": "RESTORAN"
+    "soal": "Aku memiliki cahaya. Cahaya aku dapat menyehatkan. Apabila aku datang biasanya banyak orang yang ke pantai.",
+    "jawaban": "Sore"
   },
   {
     "index": 14,
-    "soal": "Benda, Sepasang, Kanan, Kiri, Lari",
-    "jawaban": "SEPATU"
+    "soal": "Tubuhku dari besi. Gigiku tajam dan banyak. Aku suka memotong.",
+    "jawaban": "Gergaji"
   },
   {
     "index": 15,
-    "soal": "Makhluk Hidup, Matador, Tanduk",
-    "jawaban": "BANTENG"
+    "soal": "Kalau demam, aku sering dikompres air hangat. Kalau berpikir keras, aku sering dipegang. Kalau lupa, aku sering ditepuk.",
+    "jawaban": "Dahi"
   },
   {
     "index": 16,
-    "soal": "Tempat, Gedung, Tidur, Kunci, Resepsionis",
-    "jawaban": "HOTEL"
+    "soal": "Aku suka memainkan peran. Sering muncul di panggung televisi dan film. Aku juga terkenal. Aku berjenis kelamin pria.",
+    "jawaban": "Aktor"
   },
   {
     "index": 17,
-    "soal": "Ring, Kejuaraan, Tangan, Olahraga",
-    "jawaban": "TINJU"
+    "soal": "Aku bisa menyalakan lampu. Tentu saja aku bisa mematikan lampu. Tapi tanpa listrik aku tidak ada gunanya.",
+    "jawaban": "Saklar"
   },
   {
     "index": 18,
-    "soal": "Angka, Tanggal, Bulan, Tahun, Hari",
-    "jawaban": "KALENDER"
+    "soal": "Aku lahir di Arab. Aku tinggal dan besar pun di Arab. Tapi aku sama sekali tidak bisa Bahasa Arab.",
+    "jawaban": "Unta"
   },
   {
     "index": 19,
-    "soal": "Kegiatan, Air, Sabun, Handuk",
-    "jawaban": "MANDI"
+    "soal": "Badanku kecil panjang. Rambutku cuma satu. Aku muncul saat gelap gulita.",
+    "jawaban": "Lilin"
   },
   {
     "index": 20,
-    "soal": "Benda, Wangi, Busa, Mandi",
-    "jawaban": "SABUN"
+    "soal": "Aku laksana semut beriring, hanya pada laki-laki saja. Munculnya pun di bagian tertentu saja.",
+    "jawaban": "Kumis"
   },
   {
     "index": 21,
-    "soal": "Benda, Tidur, Kasur, Panjang, Empuk",
-    "jawaban": "GULING"
+    "soal": "Aku digunakan saat memasak. Tubuhku dapat melukai. Aku sangat tajam. Aku terbuat dari stainless.",
+    "jawaban": "Pisau"
   },
   {
     "index": 22,
-    "soal": "Benda, Listrik, Nyala, Saklar",
-    "jawaban": "LAMPU"
+    "soal": "Aku adalah kotak yang dapat berbicara dan dapat menghibur orang. Aku juga penuh warna.",
+    "jawaban": "Televisi"
   },
   {
     "index": 23,
-    "soal": "Benda, Minum, Sakit, Dokter, Apotek",
-    "jawaban": "OBAT"
+    "soal": "Pagi, siang, sore, dan malam aku bekerja tanpa henti dan terus berputar-putar, bila tidak matilah aku.",
+    "jawaban": "Jam"
   },
   {
     "index": 24,
-    "soal": "Benda, Sakit, Dokter, Ketiak, Derajat",
-    "jawaban": "TERMOMETER"
+    "soal": "Aku sembunyi tapi kepalaku selalu kelihatan.",
+    "jawaban": "Paku"
   },
   {
     "index": 25,
-    "soal": "Darah, Malam, Gatal, Makhluk Hidup",
-    "jawaban": "NYAMUK"
+    "soal": "Aku hidup dengan listrik. Bagian bawahku sangat panas. Bagian bawahku dari logam. Kegunaanku untuk merapikan baju.",
+    "jawaban": "Setrika"
   },
   {
     "index": 26,
-    "soal": "Negara, Seni, Bola, Pizza, Pisa",
-    "jawaban": "ITALIA"
+    "soal": "Aku adalah buah. Kalau masak warnaku kuning. Aku berbentuk lonjong. Aku untuk pencuci mulut.",
+    "jawaban": "Pisang"
   },
   {
     "index": 27,
-    "soal": "Gua, Malam, Gelap, Makhuk Hidup",
-    "jawaban": "KELELAWAR"
+    "soal": "Aku untuk membawa barang. Aku berwarna-warni. Aku dibawa ke sekolah. Aku biasanya di punggung.",
+    "jawaban": "Tas"
   },
   {
     "index": 28,
-    "soal": "Kelapa, Pasir, Laut, Tempat",
-    "jawaban": "PANTAI"
+    "soal": "Aku sangat panas. Aku bisa melenyapkan sesuatu. Aku akan besar dengan angin. Aku takut dengan air.",
+    "jawaban": "Api"
   },
   {
     "index": 29,
-    "soal": "Benda, Badut, Anak-Anak, Ulang Tahun, Meledak",
-    "jawaban": "BALON"
+    "soal": "Tebak siapakah aku? Aku terbuat dari kayu. Aku punya 4 kaki. Aku bisa patah. Aku digunakan untuk duduk.",
+    "jawaban": "Kursi"
   },
   {
     "index": 30,
-    "soal": "Benda, Nenek Sihir, Office Boy",
-    "jawaban": "SAPU"
+    "soal": "Aku adalah hewan. Aku punya 4 kaki. Aku pemakan rumput. Aku berwarna putih.",
+    "jawaban": "Sapi"
   },
   {
     "index": 31,
-    "soal": "Origami, Sakura, Sumo, Sushi",
-    "jawaban": "JEPANG"
+    "soal": "Walaupun dibeli dalam waktu yang berbeda-beda, habisnya selalu dalam waktu bersamaan.",
+    "jawaban": "Kalender"
   },
   {
     "index": 32,
-    "soal": "Perempuan, Bibir, Merah, Kecantikan",
-    "jawaban": "LIPSTIK"
+    "soal": "Aku bercahaya. Kadang aku berwarna-warni. Aku hidup dengan listrik. Aku bermanfaat di kegelapan.",
+    "jawaban": "Lampu"
   },
   {
     "index": 33,
-    "soal": "Raja, Daging, Hutan, Taring",
-    "jawaban": "SINGA"
+    "soal": "Aku berwujud cair. Aku berwarna bening. Aku sangat dibutuhkan untuk hidup.",
+    "jawaban": "Air"
   },
   {
     "index": 34,
-    "soal": "Dompet, ATM, Bank",
-    "jawaban": "UANG"
+    "soal": "Aku adalah hewan. Aku mempunyai tanduk. Aku pemakan rumput. Kadang aku dijadikan sate.",
+    "jawaban": "Kambing"
   },
   {
     "index": 35,
-    "soal": "Angka, Waktu, Jarum, Tangan",
-    "jawaban": "ARLOJI"
+    "soal": "Aku digunakan saat tidur. Aku sangat lembut. Aku lebar dan panjang. Aku selalu menghangatkan.",
+    "jawaban": "Selimut"
   },
   {
     "index": 36,
-    "soal": "Masak, Koki, Api",
-    "jawaban": "KOMPOR"
+    "soal": "Aku termasuk hewan melata. Aku pemakan daging. Gigitanku mengandung racun. Aku tidak mempunyai kaki.",
+    "jawaban": "Ular"
   },
   {
     "index": 37,
-    "soal": "Sapi, Domba, Hijau, Lapangan",
-    "jawaban": "RUMPUT"
+    "soal": "Aku musuhnya air. Kadang aku untuk memasak. Aku berwujud cair. Aku sangat licin.",
+    "jawaban": "Minyak"
   },
   {
     "index": 38,
-    "soal": "Ayam Goreng, Arab, SPBU, Katel",
-    "jawaban": "MINYAK"
+    "soal": "Aku terbuat dari kapas. Aku digunakan untuk tidur. Aku sangat empuk. Bentukku persegi panjang.",
+    "jawaban": "Bantal"
   },
   {
     "index": 39,
-    "soal": "Pintu, Lemari, Mobil, Gembok",
-    "jawaban": "KUNCI"
+    "soal": "Aku sangat empuk. Aku bermacam-macam motif. Aku berada di ruang tamu. Biasanya aku untuk duduk.",
+    "jawaban": "Sofa"
   },
   {
     "index": 40,
-    "soal": "Ulat, Bunga, Hewan",
-    "jawaban": "KUPU KUPU"
+    "soal": "Aku terbuat dari kayu. Aku berbentuk kotak. Aku ada pintunya. Kadang aku ada kacanya.",
+    "jawaban": "Lemari"
   },
   {
     "index": 41,
-    "soal": "Mobil, Motor, Bising, Polusi",
-    "jawaban": "KNALPOT"
+    "soal": "Aku sangat lembut. Aku berwarna putih. Bentukku persegi panjang. Biasanya aku untuk mengusap sesuatu yang kotor.",
+    "jawaban": "Tisu"
   },
   {
     "index": 42,
-    "soal": "Hakim, Paku",
-    "jawaban": "PALU"
+    "soal": "Aku merah, aku biru, akupun hijau. Aku juga sering kau kunjungi.",
+    "jawaban": "Google"
   },
   {
     "index": 43,
-    "soal": "Jari, Hadiah, Pernikahan, Pasangan",
-    "jawaban": "CINCIN"
+    "soal": "Kau cekik leherku. Kau gerayangi tubuhku. Akupun tertawa.",
+    "jawaban": "Gitar"
   },
   {
     "index": 44,
-    "soal": "Nasi, Daging, Sumpit, Jepang",
-    "jawaban": "SUSHI"
+    "soal": "Aku berbentuk bundar. Biasanya berwarna putih. Bila jatuh, aku bisa pecah. Aku dipakai saat makan.",
+    "jawaban": "Piring"
   },
   {
     "index": 45,
-    "soal": "Buku, Jangan Berisik, Ruangan, Membaca",
-    "jawaban": "PERPUSTAKAAN"
+    "soal": "Aku adalah ruangan. Di ruanganku ada kompornya. Aku tempat untuk memasak.",
+    "jawaban": "Dapur"
   },
   {
     "index": 46,
-    "soal": "Televisi, Battre, Halilintar, Tengangan",
-    "jawaban": "LISTRIK"
+    "soal": "Aku sebuah profesi. Aku biasanya di rumah sakit. Aku memeriksa orang sakit.",
+    "jawaban": "Dokter"
   },
   {
     "index": 47,
-    "soal": "Supir, Jalanan, Tujuan, Bayar",
-    "jawaban": "TAKSI"
+    "soal": "Aku sangat lucu. Aku adalah mainan. Aku dimainkan oleh anak-anak. Biasanya aku berbentuk tiruan hewan, manusia, dll.",
+    "jawaban": "Boneka"
   },
   {
     "index": 48,
-    "soal": "Kedelai, Lezat, Memasak",
-    "jawaban": "KECAP"
+    "soal": "Aku berbentuk bulat. Aku sangat enak. Biasanya aku untuk lauk. Aku ada kuningnya di tengah.",
+    "jawaban": "Telur"
   },
   {
     "index": 49,
-    "soal": "Bau, Buang Air, Pria, Wanita",
-    "jawaban": "TOILET"
+    "soal": "Aku termasuk itik. Aku menghasilkan telur. Telurku berwarna biru.",
+    "jawaban": "Bebek"
   },
   {
     "index": 50,
-    "soal": "Bambu, China, Hitam, Putih, Llucu",
-    "jawaban": "PANDA"
+    "soal": "Aku bagian dari tubuh. Aku ada 2 kiri dan kanan. Aku merupakan panca indra.",
+    "jawaban": "Telinga"
   },
   {
     "index": 51,
-    "soal": "Pagi, Roti, Susu",
-    "jawaban": "SARAPAN"
+    "soal": "Aku sangat mengkilap. Aku berwarna kuning. Kadang aku berbentuk cincin.",
+    "jawaban": "Emas"
   },
   {
     "index": 52,
-    "soal": "Laba-laba, Jaring, Merah, Biru",
-    "jawaban": "SPIDERMAN"
+    "soal": "Aku adalah hewan. Aku bisa menarik gerobak. Biasanya aku digunakan untuk delman.",
+    "jawaban": "Kuda"
   },
   {
     "index": 53,
-    "soal": "Diatas, Hormat, Negara",
-    "jawaban": "BENDERA"
+    "soal": "Aku sebuah pulau. Aku termasuk wilayah WITA. Banyak wisatawan asing di sini.",
+    "jawaban": "Bali"
   },
   {
     "index": 54,
-    "soal": "Mata, Pembesar, Bakteri, Peneliti",
-    "jawaban": "MIKROSKOP"
+    "soal": "Aku adalah satelit alami bumi. Aku berbentuk bulat. Aku menyinari di malam hari.",
+    "jawaban": "Bulan"
   },
   {
     "index": 55,
-    "soal": "Apolo, Bulan",
-    "jawaban": "ASTRONOT"
+    "soal": "Aku adalah alat tulis. Aku selalu dipegang ibu jari dan telunjuk. Aku untuk menulis buku.",
+    "jawaban": "Pensil"
   },
   {
     "index": 56,
-    "soal": "Perkakas, Kendaraan, Perbaikan",
-    "jawaban": "MONTIR"
+    "soal": "Aku berwujud kain. Aku selalu dipakai manusia. Aku terdapat 3 lubang.",
+    "jawaban": "Celana"
   },
   {
     "index": 57,
-    "soal": "Handphone, Remot, Plus, Minus, Mainan",
-    "jawaban": "BATTRE"
+    "soal": "Aku berupa cair. Aku tempat hidup ikan paus. Kapal pesiar selalu di atasku",
+    "jawaban": "Laut"
   },
   {
     "index": 58,
-    "soal": "Beruang, Lebah, Bunga",
-    "jawaban": "MADU"
+    "soal": "Aku berwarna putih. Aku berbentuk butir kecil. Aku rasanya asin.",
+    "jawaban": "Garam"
   },
   {
     "index": 59,
-    "soal": "Tikus, Ikan, Lonceng",
-    "jawaban": "KUCING"
+    "soal": "Aku berwujud cair. Aku salah satu bahan bakar. Aku tersedia di POM.",
+    "jawaban": "Pertamax"
   },
   {
     "index": 60,
-    "soal": "Mendali, Piala, No1, Menang",
-    "jawaban": "JUARA"
+    "soal": "Aku adalah sebuah tempat. Aku penghubung antar kota. Aku tempat pemberhentian kereta api.",
+    "jawaban": "Stasiun"
   },
   {
     "index": 61,
-    "soal": "Panas, Pakaian, Listrik, Rapi",
-    "jawaban": "SETRIKA"
+    "soal": "Aku termasuk benda padat. Tubuhku sangat keras. Aku sering digunakan untuk pondasi rumah.",
+    "jawaban": "Batu"
   },
   {
     "index": 62,
-    "soal": "Balon, Kue, Hadiah, Lilin",
-    "jawaban": "ULANG TAHUN"
+    "soal": "Aku berbentuk bulat. Aku sangat panas. Aku sebagai pusat tata surya.",
+    "jawaban": "Matahari"
   },
   {
     "index": 63,
-    "soal": "Motor, Kepala, Pengendara",
-    "jawaban": "HELM"
+    "soal": "Aku pasti sepasang. Aku sangat keras. Tidak semua hewan mempunyai aku. Aku di atas kepala.",
+    "jawaban": "Tanduk"
   },
   {
     "index": 64,
-    "soal": "Pesawat, Perempuan, Ramah",
-    "jawaban": "PRAMUGARI"
+    "soal": "Aku digunakan untuk minum. Aku berbentuk tabung tanpa tutup. Aku bermacam-macam. Aku terbuat dari atom plastik.",
+    "jawaban": "Cangkir"
   },
   {
     "index": 65,
-    "soal": "Bau, Sakit Perut, Bunyi",
-    "jawaban": "KENTUT"
+    "soal": "Aku berbentuk bundar. Aku tempatnya di atas kepala. Kegunaanku untuk menutupi dari panas.",
+    "jawaban": "Topi"
   },
   {
     "index": 66,
-    "soal": "Setrika, Matahari, Api, Neraka",
-    "jawaban": "PANAS"
+    "soal": "Semua orang hormat padaku. Setiap negara pasti punya aku. Aku terbuat dari kain.",
+    "jawaban": "Bendera"
   },
   {
     "index": 67,
-    "soal": "Enam, Titik, Kotak, Di Kocok",
-    "jawaban": "DADU"
+    "soal": "Aku sebuah profesi. Aku yang mengurusi sawah.",
+    "jawaban": "Petani"
   },
   {
     "index": 68,
-    "soal": "Warna Warni, Hujan",
-    "jawaban": "PELANGI"
+    "soal": "Aku hidup dengan solar. Aku beroda 4. Aku berbentuk badan besar.",
+    "jawaban": "Truck"
   },
   {
     "index": 69,
-    "soal": "Manis, Semut, Sakit Gigi, Anak-Anak",
-    "jawaban": "PERMEN"
+    "soal": "Aku berbentuk kotak. Aku berwarna merah. Aku biasanya untuk membangun rumah.",
+    "jawaban": "Bata"
   },
   {
     "index": 70,
-    "soal": "Mobil, Motor, Brisik, Bunyi",
-    "jawaban": "KLAKSON"
+    "soal": "Tubuhku panjang. Aku selalu diinjak. Aku terbentang di sungai.",
+    "jawaban": "Jembatan"
   },
   {
     "index": 71,
-    "soal": "Loncat, Kantung, Australia",
-    "jawaban": "KANGGURU"
+    "soal": "Aku adalah alat bersih-bersih. Badanku terbuat dari kayu. Aku sering bersentuhan dengan lantai.",
+    "jawaban": "Sapu"
   },
   {
     "index": 72,
-    "soal": "Berlian, Emas, Peta, Rahasaia",
-    "jawaban": "HARTA KARUN"
+    "soal": "Aku berbentuk tabung. Badanku terdiri dari 2 lapis. Biasanya aku digunakan untuk menyimpan air panas.",
+    "jawaban": "Termos"
   },
   {
     "index": 73,
-    "soal": "Mata, Sup, Orange, Kelinci",
-    "jawaban": "WORTEL"
+    "soal": "Tebak siapakah aku? Aku terbuat dari kain. Aku berbentuk persegi. Biasanya aku untuk mengelap meja.",
+    "jawaban": "Serbet"
   },
   {
     "index": 74,
-    "soal": "Suntik, Jarum, Merah, Nyamuk",
-    "jawaban": "DARAH"
+    "soal": "Aku akan hidup dengan listrik. Aku banyak di kantor. Biasanya di dalamku ada MS Officenya.",
+    "jawaban": "Komputer"
   },
   {
     "index": 75,
-    "soal": "Asin, Laut, Putih, Memasak",
-    "jawaban": "GARAM"
+    "soal": "Aku berbentuk kotak. Aku biasanya di dapur. Aku bisa mengeluarkan api.",
+    "jawaban": "Kompor"
   },
   {
     "index": 76,
-    "soal": "Hidung, Oksigen, Dada, Nafas",
-    "jawaban": "PARU PARU"
+    "soal": "Aku adalah benda elektronik. Bentukku kotak. Aku bisa mengeluarkan suara.",
+    "jawaban": "Radio"
   },
   {
     "index": 77,
-    "soal": "Pinggang, Panjang",
-    "jawaban": "SABUK"
+    "soal": "Aku sangat wangi. Aku dipakai di saat mandi. Aku diusap di rambut.",
+    "jawaban": "Sampo"
   },
   {
     "index": 78,
-    "soal": "Kepala, Obat",
-    "jawaban": "PUSING"
+    "soal": "Aku adalah sebuah ruangan. Biasanya aku di samping rumah. Aku merupakan tempat mobil.",
+    "jawaban": "Garasi"
   },
   {
     "index": 79,
-    "soal": "Sampah, Kuman, Terbang, Sakit Perut",
-    "jawaban": "LALAT"
+    "soal": "Aku adalah ruang bebas. Biasanya aku di depan rumah. Banyak macam-macam bunga di sini.",
+    "jawaban": "Taman"
   },
   {
     "index": 80,
-    "soal": "Robot, Kucing, Jepang",
-    "jawaban": "DORAEMON"
+    "soal": "Aku bagian dari hewan. Biasanya bentukku panjang. Aku selalu di bagian belakang hewan.",
+    "jawaban": "Ekor"
   },
   {
     "index": 81,
-    "soal": "12, Bulan, Tahun Baru, Natal",
-    "jawaban": "DESEMBER"
+    "soal": "Aku termasuk burung. Ada yang menjadikanku sebagai simbol negara.",
+    "jawaban": "Garuda"
   },
   {
     "index": 82,
-    "soal": "Hijau, Loncat, Air, Darat",
-    "jawaban": "KATAK"
+    "soal": "Aku termasuk sebuah profesi. Biasanya aku dipilih lewat pemilu. Aku merupakan orang no. 1 di sebuah provinsi.",
+    "jawaban": "Gubernur"
   },
   {
     "index": 83,
-    "soal": "Punggung, Seleting, Buku",
-    "jawaban": "TAS"
+    "soal": "Aku adalah sebuah tempat. Aku sangat dingin. Aku ada yang Utara dan Selatan.",
+    "jawaban": "Kutub"
   },
   {
     "index": 84,
-    "soal": "Unta, Piramid, Kaktus, Kering",
-    "jawaban": "GURUN PASIR"
+    "soal": "Aku adalah sebuah kota. Aku berada di Jawa Barat. Aku dijuluki Kota Hujan.",
+    "jawaban": "Bogor"
   },
   {
     "index": 85,
-    "soal": "Putih, Tipis, Lap, Toilet",
-    "jawaban": "TISU"
+    "soal": "Aku berwujud cair. Aku berwarna hitam. Aku sangat bau. Aku kotoran dari pabrik.",
+    "jawaban": "Limbah"
   },
   {
     "index": 86,
-    "soal": "Naik Turun, Jaket, Celana, Tas",
-    "jawaban": "RESLETING"
+    "soal": "Aku adalah macam olahraga. Aku dimainkan dengan bola. Aku ada 2 ring di masing-masing ujung lawan.",
+    "jawaban": "Basket"
   },
   {
     "index": 87,
-    "soal": "Menyelam, Minum, Siram, Ikan",
-    "jawaban": "AIR"
+    "soal": "Aku terbuat dari parasit. Aku ada pegangannya. Aku digunakan untuk berlindung dari panas dan hujan.",
+    "jawaban": "Payung"
   },
   {
     "index": 88,
-    "soal": "Sepasang, Mendengar",
-    "jawaban": "TELINGA"
+    "soal": "Aku bagian dari tubuh. Warnaku putih. Salah satu dari aku disebut geraham.",
+    "jawaban": "Gigi"
   },
   {
     "index": 89,
-    "soal": "Susu, Gigi, Kertas",
-    "jawaban": "PUTIH"
+    "soal": "Aku di atas meja. Biasanya terbuat dari kayu. Aku sebagai tempat puntung rokok.",
+    "jawaban": "Asbak"
   },
   {
     "index": 90,
-    "soal": "Hidung, Panjang, Bohong, Kayu",
-    "jawaban": "PINOKIO"
+    "soal": "Aku merupakan karya seni. Orang suka memajangku. Aku mempunyai estetika.",
+    "jawaban": "Lukisan"
   },
   {
     "index": 91,
-    "soal": "UFO, Planet",
-    "jawaban": "ALIEN"
+    "soal": "Aku terbuat dari alumunium. Aku sebagai tempat baju. Aku selalu ditaruh di terik matahari.",
+    "jawaban": "Jemuran"
   },
   {
     "index": 92,
-    "soal": "Mendengar, Suara, Jarak Jauh",
-    "jawaban": "TELEPON"
+    "soal": "Aku berbentuk kotak. Bagian dalamku dingin. Aku membuat es.",
+    "jawaban": "Kulkas"
   },
   {
     "index": 93,
-    "soal": "Naik, Turun, Kaki",
-    "jawaban": "TANGGA"
+    "soal": "Aku bisa pecah. Setiap hari orang pasti memandangku. Aku bisa memantulkan sesuatu yang ada di hadapanku.",
+    "jawaban": "Cermin"
   },
   {
     "index": 94,
-    "soal": "Kepala, Terik, Pantai",
-    "jawaban": "TOPI"
+    "soal": "Aku dipunyai di setiap rumah. Aku tempat BAB.",
+    "jawaban": "Toilet"
   },
   {
     "index": 95,
-    "soal": "Burung, Pesawat, Nyamuk, Superman",
-    "jawaban": "TERBANG"
+    "soal": "Aku gelembung-gelembung kecil. Aku dihasilkan oleh sabun.",
+    "jawaban": "Busa"
   },
   {
     "index": 96,
-    "soal": "Tidur, Brisik",
-    "jawaban": "NGOROK"
+    "soal": "Aku hidup dengan listrik. Aku berbentuk kotak. Kegunaanku untuk membuat roti.",
+    "jawaban": "Oven"
   },
   {
     "index": 97,
-    "soal": "Utara, Selatan, Kompas, Menempel",
-    "jawaban": "MAGNET"
+    "soal": "Aku adalah alat dapur. Aku berbentuk bulat. Aku digunakan untuk menumbuk bumbu.",
+    "jawaban": "Cobek"
   },
   {
     "index": 98,
-    "soal": "Masinis, Pluit, Tiket, Rel",
-    "jawaban": "KERETA API"
+    "soal": "Aku panjang seperti pipa. Badanku lentur. Kegunaanku untuk mengalirkan air.",
+    "jawaban": "Selang"
   },
   {
     "index": 99,
-    "soal": "Membaca, Mata, Huruf",
-    "jawaban": "KACAMATA"
+    "soal": "Saat aku jatuh, gerakku pelan. Saat aku naik, gerakku cepat.",
+    "jawaban": "Ingus"
   },
   {
     "index": 100,
-    "soal": "Bola, Tangan, Gawang",
-    "jawaban": "KIPER"
+    "soal": "Aku merah putih yang berselang. Tegap berdiri dan saling berhubungan. Mendekatkan yang jauh dan menjauhkan yang dekat.",
+    "jawaban": "Tower"
   },
   {
     "index": 101,
-    "soal": "Taj Mahal, Bajaj, Ular, Gajah",
-    "jawaban": "INDIA"
+    "soal": "Jika kau sebut aku. Aku akan tidak berarti.",
+    "jawaban": "Diam"
   },
   {
     "index": 102,
-    "soal": "Kartu, Tongkat, Kelinci, Burung",
-    "jawaban": "SULAP"
+    "soal": "Kau genggam aku. Terkadang kau tak mau jauh dariku. Di saat kamu pergi, aku menyertaimu. Dunia tampak sepi tanpa kehadiranku. Saat aku berteriak, kau langsung mencariku.",
+    "jawaban": "Handphone"
   },
   {
     "index": 103,
-    "soal": "Kertas, Burung, Kampak, Oksigen",
-    "jawaban": "POHON"
+    "soal": "Aku bisa makan. Aku juga bisa dimakan. Aku hitam putih yang berperang.",
+    "jawaban": "Catur"
   },
   {
     "index": 104,
-    "soal": "Tajam, Ikan, Berbahaya",
-    "jawaban": "PIRANHA"
+    "soal": "Aku selalu dikejar-kejar. Tapi walau sampai kapanpun, dia tidak akan pernah berhasil mendahuluiku.",
+    "jawaban": "Roda"
   },
   {
     "index": 105,
-    "soal": "Ketik, Jari, Komputer, Huruf",
-    "jawaban": "KEYBOARD"
+    "soal": "Aku selalu berpasangan. Aku kiri dan kanan. Aku dipake ke sekolah. Kadang aku tak bertali.",
+    "jawaban": "Sepatu"
   },
   {
     "index": 106,
-    "soal": "Mulut, Plastik, Panjang, Minuman",
-    "jawaban": "SEDOTAN"
+    "soal": "Aku Bapak Proklamator Republik Indonesia.",
+    "jawaban": "Soekarno"
   },
   {
     "index": 107,
-    "soal": "Stir, Roda, Donat",
-    "jawaban": "LINGKARAN"
+    "soal": "Aku adalah bagian pada kendaraan bermotor. Aku digunakan sebagai pembuangan gas.",
+    "jawaban": "Knalpot"
   },
   {
     "index": 108,
-    "soal": "Kuning, Monyet",
-    "jawaban": "PISANG"
+    "soal": "Aku adalah binatang. Aku bisa hidup di air dan di darat.",
+    "jawaban": "Amfibi"
   },
   {
     "index": 109,
-    "soal": "Api, Tiup, Kue",
-    "jawaban": "LILIN"
+    "soal": "Aku sebuah negara, aku juara Piala Eropa 2016.",
+    "jawaban": "Portugal"
   },
   {
     "index": 110,
-    "soal": "Baling-baling, Pilot, Awan",
-    "jawaban": "PESAWAT"
+    "soal": "Aku adalah mata uang, aku berasal dari negara Jepang.",
+    "jawaban": "Yen"
   },
   {
     "index": 111,
-    "soal": "Koboi, Tapal, Rumput",
-    "jawaban": "KUDA"
+    "soal": "Aku salah satu panca indra manusia. Aku digunakan untuk mengecap.",
+    "jawaban": "Lidah"
   },
   {
     "index": 112,
-    "soal": "Makanan, Italia, Bulat, Panggang",
-    "jawaban": "PIZZA"
+    "soal": "Aku adalah sebuah planet. Aku terbesar dalam tata surya kita.",
+    "jawaban": "Yupiter"
   },
   {
     "index": 113,
-    "soal": "Keju, Kincir Angin, Tulip",
-    "jawaban": "BELANDA"
+    "soal": "Aku sebuah produk makanan ringan. Aku pernah beriklan di televisi. Aku memiliki moto: ‘Berapa Lapis? Ratusan’.",
+    "jawaban": "Tango"
   },
   {
     "index": 114,
-    "soal": "Bebek, Ayam, Bulat",
-    "jawaban": "TELUR"
+    "soal": "Aku sejenis hewan. Aku hewan terkecil di dunia.",
+    "jawaban": "Amuba"
   },
   {
     "index": 115,
-    "soal": "Air, Keran, Panjang",
-    "jawaban": "PIPA"
+    "soal": "Aku adalah tumbuhan. Di seluruh tubuhku penuh dengan duri. Aku sering ditemukan di padang gurun yang gersang.",
+    "jawaban": "Kaktus"
   },
   {
     "index": 116,
-    "soal": "Lendir, Hidung, Mampet, Tisu",
-    "jawaban": "PILEK"
+    "soal": "Aku adalah nama gunung. Aku gunung tertinggi di dunia.",
+    "jawaban": "Everest"
   },
   {
     "index": 117,
-    "soal": "Pucuk, Minuman",
-    "jawaban": "TEH"
+    "soal": "Aku suka mempromosikan. Bisa seperti benda, jasa, dan ide. Aku juga bisa meningkatkan penjualan.",
+    "jawaban": "Iklan"
   },
   {
     "index": 118,
-    "soal": "Dompet, Identitas, Alamat, Telepon",
-    "jawaban": "KARTU NAMA"
+    "soal": "Kalo diucapkan 1 kali aku jauh. Diucapkan 2 kali aku jadi dekat.",
+    "jawaban": "Langit"
   },
   {
     "index": 119,
-    "soal": "Bayi, Kencing, Lembut",
-    "jawaban": "POPOK"
+    "soal": "Saya adalah sebuah provinsi di Indonesia. Saya disusun oleh sebuah benda yang dicari ketika gelap. Jika huruf awal saya diganti, maka pekerjaan saya telah selesai.",
+    "jawaban": "Lampung"
   },
   {
     "index": 120,
-    "soal": "Lampu kilat, Photo, Lensa",
-    "jawaban": "KAMERA"
+    "soal": "Aku memiliki ukuran besar. Pada beberapa film, aku juga sesosok yang menyeramkan.",
+    "jawaban": "Raksasa"
   },
   {
     "index": 121,
-    "soal": "Tipis, Halus, Jarum",
-    "jawaban": "BENANG"
+    "soal": "Aku sebuah negara. Aku memiliki jumlah penduduk terbanyak di dunia.",
+    "jawaban": "China"
   },
   {
     "index": 122,
-    "soal": "Benda, Senar, Petik",
-    "jawaban": "GITAR"
+    "soal": "Aku adalah sebuah bangunan. Aku berbentuk segitiga. Aku digunakan sebagai tempat penguburan Firaun.",
+    "jawaban": "Piramida"
   },
   {
     "index": 123,
-    "soal": "Baju, Celana, Jaket",
-    "jawaban": "PAKAIAN"
+    "soal": "Aku sejenis kera. Aku adalah binatang yang dilindungi. Aku berasal dari Kalimantan dan Sumatra.",
+    "jawaban": "Orangutan"
   },
   {
     "index": 124,
-    "soal": "Benda, Bergerak, Mesin",
-    "jawaban": "ROBOT"
+    "soal": "Aku adalah sejenis buah-buahan, biasanya aku diparut untuk dijadikan santan.",
+    "jawaban": "Kelapa"
   },
   {
     "index": 125,
-    "soal": "Kendaraan, Roda 3, Mobil",
-    "jawaban": "BAJAJ"
+    "soal": "Aku adalah samudra. Aku samudra terluas di dunia.",
+    "jawaban": "Pasifik"
   },
   {
     "index": 126,
-    "soal": "Sarjana, Haji, Master",
-    "jawaban": "GELAR"
+    "soal": "Aku salah satu bagian dari anggota tubuh. Tempatku di bagian wajah.",
+    "jawaban": "Hidung"
   },
   {
     "index": 127,
-    "soal": "Seni, Dipajang, Dinding, Estetika",
-    "jawaban": "LUKISAN"
+    "soal": "Aku adalah sebuah planet. Aku sangat jauh dari bumi. Aku planet keenam dari matahari.",
+    "jawaban": "Saturnus"
   },
   {
     "index": 128,
-    "soal": "Raksasa, Hewan, Kadal, Indonesia",
-    "jawaban": "KOMODO"
+    "soal": "Aku adalah sebuah mata uang. Aku biasa dipake untuk melakukan pembayaran. Aku adalah mata uang virtual.",
+    "jawaban": "Bitcoin"
   },
   {
     "index": 129,
-    "soal": "Transportasi darat, Roda, Kayu, Kuda",
-    "jawaban": "ANDONG"
+    "soal": "Aku terbuat dari kain. Aku dapat menyerap air. Aku digunakan untuk mengeringkan setelah mandi.",
+    "jawaban": "Handuk"
   },
   {
     "index": 130,
-    "soal": "Sekolah, Papan, Tulis, Putih",
-    "jawaban": "KAPUR"
+    "soal": "Ukuranku sangat kecil seperti butiran pasir. Rasaku sangat manis. Aku terbuat dari tanaman tebu.",
+    "jawaban": "Gula"
   },
   {
     "index": 131,
-    "soal": "Kendaraan, Transportasi, Darat, Aspal",
-    "jawaban": "JALAN"
+    "soal": "Aku merupakan makanan pokok. Aku berbentuk butiran kecil. Warnaku putih.",
+    "jawaban": "Nasi"
   },
   {
     "index": 132,
-    "soal": "Elektronik, Kotak, Frekuensi, Suara",
-    "jawaban": "RADIO"
+    "soal": "Aku adalah sebuah kota. Aku bagian dari Negara Kesatuan Republik Indonesia, letakku paling Utara Indonesia.",
+    "jawaban": "Sabang"
   },
   {
     "index": 133,
-    "soal": "Tanah liat, Benda, Atap, Rumah",
-    "jawaban": "GENTENG"
+    "soal": "Aku bagian dari tubuh. Aku adalah sebutan untuk ibu jari tangan dan kaki.",
+    "jawaban": "Jempol"
   },
   {
     "index": 134,
-    "soal": "Malam hari, Sayap, Hitam, Darah",
-    "jawaban": "KELELAWAR"
+    "soal": "Aku sejenis alat musik. Aku berasal dari masyarakat Sunda. Aku terbuat dari bambu.",
+    "jawaban": "Angklung"
   },
   {
     "index": 135,
-    "soal": "Segitiga, Mesir, Firaun",
-    "jawaban": "PIRAMIDA"
+    "soal": "Aku sejenis kesenian. Aku sangat terkenal. Aku berasal dari Ponorogo.",
+    "jawaban": "Reog"
   },
   {
     "index": 136,
-    "soal": "Butiran, Pasir, Manis",
-    "jawaban": "GULA"
+    "soal": "Aku sejenis makanan. Biasanya aku berupa bubur sagu. Aku berasal dari Maluku dan Papua.",
+    "jawaban": "Papeda"
   },
   {
     "index": 137,
-    "soal": "Alat Musik, Sunda, Bambu, Bunyi",
-    "jawaban": "ANGKLUNG"
+    "soal": "Aku adalah sebuah seni bela diri. Aku berasal dari Negara Jepang.",
+    "jawaban": "Karate"
   },
   {
     "index": 138,
-    "soal": "Padi, Butiran, Kering, Gabah",
-    "jawaban": "BERAS"
+    "soal": "Aku adalah sebuah tarian tradisional. Aku berasal dari Tionghoa. Biasanya aku menggunakan kostum menyerupai singa atau naga.",
+    "jawaban": "Barongsai"
   },
   {
     "index": 139,
-    "soal": "Rumah, Suku, Pegunungan, Sulawesi",
-    "jawaban": "TORAJA"
+    "soal": "Aku adalah sebuah bahasa. Aku merupakan bahasa resmi negara Filipina.",
+    "jawaban": "Tagalog"
   },
   {
     "index": 140,
-    "soal": "Transportasi, Air, Kayu, Dayung",
-    "jawaban": "PERAHU"
+    "soal": "Aku merupakan benua yang meliputi kutub Selatan bumi. Aku memiliki suhu yang sangat rendah.",
+    "jawaban": "Antartika"
   },
   {
     "index": 141,
-    "soal": "Pagi Hari, Pegunungan, Pandangan, Dingin",
-    "jawaban": "KABUT"
+    "soal": "Aku adalah sebutan untuk kerabat kandung. Aku adalah ayah dari masing-masing orang tua kita.",
+    "jawaban": "Kakek"
   },
   {
     "index": 142,
-    "soal": "Alas, Kaki, Tali",
-    "jawaban": "SEPATU"
+    "soal": "Aku makhluk berjenis kelamin perempuan. Aku berparas cantik. Aku berasal dari kahyangan.",
+    "jawaban": "Bidadari"
   },
   {
     "index": 143,
-    "soal": "Rumput, Jenggot, Tanduk, Sate",
-    "jawaban": "KAMBING"
+    "soal": "Aku adalah sejenis bangunan. Aku biasanya dijadikan tempat tinggal manusia.",
+    "jawaban": "Rumah"
   },
   {
     "index": 144,
-    "soal": "Memasak, Cair, licin, Goreng",
-    "jawaban": "MINYAK"
+    "soal": "Aku berbentuk butiran-butiran kering. Aku merupakan olahan dari padi.",
+    "jawaban": "Beras"
   },
   {
     "index": 145,
-    "soal": "Bulat, Lempar, Tendang",
-    "jawaban": "BOLA"
+    "soal": "Aku tidak bisa jalan di darat. Apalagi di laut. Aku suka menembus awan. Aku bisa membawa banyak orang.",
+    "jawaban": "Pesawat"
   },
   {
     "index": 146,
-    "soal": "Roda dua, Kaki, Kayuh, Olahraga",
-    "jawaban": "SEPEDA"
+    "soal": "Letak aku selalu di pojok. Aku ada pada segitiga siku-siku. Aku juga selalu ada di rumah.",
+    "jawaban": "Sudut"
   },
   {
     "index": 147,
-    "soal": "Angka, Kecil, Hitung, Alat",
-    "jawaban": "KALKULATOR"
+    "soal": "Tubuh aku penuh duri. Orang lebih suka aku jika berwarna merah. Aku melambangkan perasaan cinta.",
+    "jawaban": "Mawar"
   },
   {
     "index": 148,
-    "soal": "Kecil, Kelompok, Sarang, Hewan",
-    "jawaban": "SEMUT"
+    "soal": "Aku adalah alat tulis. Aku berwarna putih. Aku berbentuk segi panjang. Aku hancur bila kena air.",
+    "jawaban": "Buku"
   },
   {
     "index": 149,
-    "soal": "Pantai, Hewan, Invertebrata, Capit",
-    "jawaban": "KEPITING"
+    "soal": "Tubuhku kebanyakan dibuat dari besi. Aku selalu memotong. Kalau separuh tubuhku hilang, maka aku tidak berguna lagi.",
+    "jawaban": "Gunting"
   },
   {
     "index": 150,
-    "soal": "Menghibur, Sule, Tertawa",
-    "jawaban": "PELAWAK"
+    "soal": "Tubuhku kecil mungil. Kalau sudah dibuka akan terlihat ujungku yang bulat lucu. Aku suka sekali diisap terutama anak-anak.",
+    "jawaban": "Lolipop"
   },
   {
     "index": 151,
-    "soal": "Mengelap, Kain, Kering, Mandi",
-    "jawaban": "HANDUK"
+    "soal": "Tebak siapakah aku? Aku adalah hewan. Aku bisa terbang. Aku sangat indah. Aku penghisap bunga.",
+    "jawaban": "Kupu"
   },
   {
     "index": 152,
-    "soal": "Bulat, Lubang, Tepung",
-    "jawaban": "DONAT"
+    "soal": "Bentuk aku kecil hitam. Rasa aku sedikit asin. Aku sering diolah menjadi makanan ringan.",
+    "jawaban": "Kuaci"
   },
   {
     "index": 153,
-    "soal": "Gerhana, Sinar, Malam",
-    "jawaban": "BULAN"
+    "soal": "Aku bukan benda cair, juga bukan benda padat. Jika aku muncul sekitarku pasti heboh.",
+    "jawaban": "Kentut"
   },
   {
     "index": 154,
-    "soal": "Udara, Kaca, Rumah",
-    "jawaban": "JENDELA"
+    "soal": "Badanku penuh duri, tapi aku bukan buah. Wanita sangat suka akan diriku.",
+    "jawaban": "Mawar"
   },
   {
     "index": 155,
-    "soal": "Wadah, Makanan, Pecah",
-    "jawaban": "PIRING"
+    "soal": "Aku terbuat dari besi. Aku digunakan untuk makan. Pasanganku adalah garpu.",
+    "jawaban": "Sendok"
   },
   {
     "index": 156,
-    "soal": "Hewan, Besar, Cula",
-    "jawaban": "BADAK"
+    "soal": "Aku bersuara bila ada bahaya. Aku juga suka membangunkan orang tidur. Suara aku cukup keras.",
+    "jawaban": "Alarm"
   },
   {
     "index": 157,
-    "soal": "Bangunan, Tempat, Hunian",
-    "jawaban": "RUMAH"
+    "soal": "Usia aku masih sangat muda. Bentuk aku mungil dan imut. Aku sangat menggemaskan.",
+    "jawaban": "Bayi"
   },
   {
     "index": 158,
-    "soal": "Lubang, Wajah, Hirup, Nafas",
-    "jawaban": "HIDUNG"
+    "soal": "Bentuk aku bulat. Ukuran aku bermacam-macam. Aku selalu digelindingkan, dilempar, bahkan ditendang.",
+    "jawaban": "Bola"
   },
   {
     "index": 159,
-    "soal": "Pohon, Bagian Bawah",
-    "jawaban": "AKAR"
+    "soal": "Bentuk aku bermacam-macam. Aku disukai anak-anak. Aku gampang rusak oleh benda tajam atau panas.",
+    "jawaban": "Balon"
   },
   {
     "index": 160,
-    "soal": "Alat, Makan, Menusuk",
-    "jawaban": "GARPU"
+    "soal": "Bentuk aku panjang. Warna tubuh aku oranye, katanya kelinci sangat suka aku.",
+    "jawaban": "Wortel"
   },
   {
     "index": 161,
-    "soal": "Luabang, Air, Timba",
-    "jawaban": "SUMUR"
+    "soal": "Aku selalu membantu orang membawa barang. Ukuran aku bermacam-macam. Letak aku di punggung orang yang aku bantu.",
+    "jawaban": "Ransel"
   },
   {
     "index": 162,
-    "soal": "Bagian, Belakang, Hewan",
-    "jawaban": "EKOR"
+    "soal": "Tubuh aku warna-warni. Aku muncul setelah hujan turun. Bentuk aku melengkung dengan indah.",
+    "jawaban": "Pelangi"
   },
   {
     "index": 163,
-    "soal": "Surya, Bumi, Sumber Terang",
-    "jawaban": "MATAHARI"
+    "soal": "Aku disukai banyak orang. Aku memiliki cahaya yang terang, tapi cuma sekilas. Aku mengabadikan momen yang penting.",
+    "jawaban": "Kamera"
   },
   {
     "index": 164,
-    "soal": "Kera, Langka, Hutan",
-    "jawaban": "ORANGUTAN"
+    "soal": "Bentuk aku panjang dan sedikit melengkung. Aku memiliki warna hijau dan kuning. Katanya aku disukai monyet.",
+    "jawaban": "Pisang"
   },
   {
     "index": 165,
-    "soal": "Air, Aliran, Hulu, Hilir",
-    "jawaban": "SUNGAI"
+    "soal": "Aku berbentuk gas. Aku ada jika ada air dan api.",
+    "jawaban": "Uap"
   },
   {
     "index": 166,
-    "soal": "Buah, Bulan, Santan",
-    "jawaban": "KELAPA"
+    "soal": "Aku dari golongan hewan. Aku sudah hampir punah. Bentuk aku seperti kadal raksasa.",
+    "jawaban": "Komodo"
   },
   {
     "index": 167,
-    "soal": "Kadal, Ubah, Warna",
-    "jawaban": "BUNGLON"
+    "soal": "Aku peninggalan masa lalu. Aku terbuat dari batu yang megah dan besar. Aku terletak dekat Yogyakarta.",
+    "jawaban": "Borobudur"
   },
   {
     "index": 168,
-    "soal": "Perusahaan, Negara, Minyak",
-    "jawaban": "PERTAMINA"
+    "soal": "Tubuh aku mungil. Aku hidup berkelompok. Aku menghasilkan cairan yang manis.",
+    "jawaban": "Lebah"
   },
   {
     "index": 169,
-    "soal": "Energi, Radioaktif, Uranium",
-    "jawaban": "NUKLIR"
+    "soal": "Banyak orang yang sangat sulit mendefinisikan aku. Aku juga dapat membuat orang menjadi senang dan bahkan sangat sedih.",
+    "jawaban": "Cinta"
   },
   {
     "index": 170,
-    "soal": "Ilmu, Sifat, Materi",
-    "jawaban": "FISIKA"
+    "soal": "Aku sebuah senjata. Tubuh aku besar dan panjang. Aku memiliki peluru yang bulat, besar, dan berat.",
+    "jawaban": "Meriam"
   },
   {
     "index": 171,
-    "soal": "Galaksi, Tata Surya",
-    "jawaban": "BIMASAKTI"
+    "soal": "Aku alat transportasi. Roda aku terbuat dari kayu. Aku harus ditarik oleh kuda.",
+    "jawaban": "Andong"
   },
   {
     "index": 172,
-    "soal": "Musik, Indonesia, Goyang, Gendang",
-    "jawaban": "DANGDUT"
+    "soal": "Aku sejenis hewan. Tubuh aku berbulu dan sangat lucu. Manusia sering menjadikan aku temannya.",
+    "jawaban": "Kucing"
   },
   {
     "index": 173,
-    "soal": "Burung, Langka, Papua",
-    "jawaban": "CENDRAWASIH"
+    "soal": "Aku memiliki bentuk atas yang memanjang. Bagian bawahku berbentuk lingkaran. Aku dapat menampung air.",
+    "jawaban": "Botol"
   },
   {
     "index": 174,
-    "soal": "Tulang Besi, Wayang, Terbang, Sakti",
-    "jawaban": "GATOT KACA"
+    "soal": "Aku adalah buah. Bentukku bulat. Aku hanya ada di padang pasir.",
+    "jawaban": "Kurma"
   },
   {
     "index": 175,
-    "soal": "Mentimun, Asam, Asin",
-    "jawaban": "ACAR"
+    "soal": "Aku terbuat dari kayu. Setiap rumah pasti punya aku. Aku bisa dibuka dan ditutup.",
+    "jawaban": "Pintu"
   },
   {
     "index": 176,
-    "soal": "Ruang, Tunggu, Bis",
-    "jawaban": "HALTE"
+    "soal": "Aku terbuat dari besi. Ada 2 roda di bagian bawahku. Aku bisa digunakan dengan cara dikayuh.",
+    "jawaban": "Sepeda"
   },
   {
     "index": 177,
-    "soal": "Tanah, Petani, Padi",
-    "jawaban": "SAWAH"
+    "soal": "Aku terbuat dari kain. Aku selalu dipasang di jendela.",
+    "jawaban": "Gorden"
   },
   {
     "index": 178,
-    "soal": "Bayi, Kencing, Lembut",
-    "jawaban": "POPOK"
+    "soal": "Aku biasanya terbuat dari besi, kayu, atau tembok. Aku selalu dipasang mengelilingi rumah.",
+    "jawaban": "Pagar"
   },
   {
     "index": 179,
-    "soal": "Benda, Bermain, Duduk, Rantai",
-    "jawaban": "AYUNAN"
+    "soal": "Aku bagian dari tumbuhan. Aku merupakan bagian dimana terjadi fotosintesis.",
+    "jawaban": "Daun"
   },
   {
     "index": 180,
-    "soal": "Tempat, Barang, Ruangan",
-    "jawaban": "GUDANG"
+    "soal": "Aku berwujud gas. Aku selalu dibutuhkan semua makhluk hidup.",
+    "jawaban": "Oksigen"
   },
   {
     "index": 181,
-    "soal": "Benda, Tempat, Simpan, Pakaian",
-    "jawaban": "LEMARI"
+    "soal": "Aku berwujud cair, biasanya warnaku hitam. Aku jadi satu dengan printer.",
+    "jawaban": "Tinta"
   },
   {
     "index": 182,
-    "soal": "Hitam, Putih, Hujan, Melayang",
-    "jawaban": "AWAN"
+    "soal": "Aku terbuat dari besi. Aku berbentuk kecil panjang. Selalu ada lubang di salah satu ujungku.",
+    "jawaban": "Jarum"
   },
   {
     "index": 183,
-    "soal": "Asap, Knalpot, Lingkungan",
-    "jawaban": "POLUSI"
+    "soal": "Aku sangat membantu siswa dalam menghitung. Aku sangat jago dalam menghitung. Di dalam diriku terdapat angka 1-9.",
+    "jawaban": "Kalkulator"
   },
   {
     "index": 184,
-    "soal": "Beras, Gula, Sayur",
-    "jawaban": "SEMBAKO"
+    "soal": "Aku termasuk hewan. Biasanya aku ada di hutan. Di bagian tubuhku penuh duri.",
+    "jawaban": "Landak"
   },
   {
     "index": 185,
-    "soal": "Minyak Sayur, Santan, Tumbuhan",
-    "jawaban": "KELAPA"
+    "soal": "Ketika muda aku tinggi. Ketika tua aku pendek.",
+    "jawaban": "Lilin"
   },
   {
     "index": 186,
-    "soal": "Kendaraan, Kayuh, Roda, Tiga",
-    "jawaban": "BECAK"
+    "soal": "Aku bisa bertambah, tapi aku tidak bisa berkurang.",
+    "jawaban": "Umur"
   },
   {
     "index": 187,
-    "soal": "Pelindung Rumah, Besi, Pingir Jalan",
-    "jawaban": "PAGAR"
+    "soal": "Aku ringan seperti bulu, namun manusia terkuat tidak bisa menahan aku lebih dari lima menit.",
+    "jawaban": "Nafas"
   },
   {
     "index": 188,
-    "soal": "Alat, Debu, Bersih",
-    "jawaban": "KEMOCENG"
+    "soal": "Aku bisa dipegang tapi tidak bisa disentuh.",
+    "jawaban": "Janji"
   },
   {
     "index": 189,
-    "soal": "Benda, Puntung, Sampah",
-    "jawaban": "ASBAK"
+    "soal": "Aku bagian dari burung tapi tidak bisa terbang, namun aku bisa berada di lautan tanpa basah.",
+    "jawaban": "Bayangan"
   },
   {
     "index": 190,
-    "soal": "Tempat, Naik/Turun, Lantai",
-    "jawaban": "LIFT"
+    "soal": "Aku punya banyak lubang tapi aku dapat menyimpan air.",
+    "jawaban": "Sponge"
   },
   {
     "index": 191,
-    "soal": "Benda, Berdiri, Panjang",
-    "jawaban": "TIANG"
+    "soal": "Aku kehilangan kepala ketika pagi dan punya lagi waktu malam.",
+    "jawaban": "Bantal"
   },
   {
     "index": 192,
-    "soal": "Asin, Putih, Masakan",
-    "jawaban": "GARAM"
+    "soal": "Aku selalu diinjak-injak. Akupun juga dielus-elus.",
+    "jawaban": "Tangga"
   },
   {
     "index": 193,
-    "soal": "Meledak, Panas, Indah, Cahaya",
-    "jawaban": "KEMBANG API"
+    "soal": "Tebak siapakah aku? Aku memiliki sayap. Sayapku menyambung dengan kaki. Aku sangat suka beraktivitas di malam hari.",
+    "jawaban": "Kelelawar"
   },
   {
     "index": 194,
-    "soal": "Acara, Peresmian, Sepasang",
-    "jawaban": "NIKAH"
+    "soal": "Aku sejenis hewan. Gigi aku tajam. Aku sangat galak pada orang jahat. Aku dipilih manusia untuk menjaganya.",
+    "jawaban": "Anjing"
   },
   {
     "index": 195,
-    "soal": "Putih, Biru, Menjaga",
-    "jawaban": "SATPAM"
+    "soal": "Aku selalu dipotong tapi tetap tumbuh. Biasanya aku ada di tangan dan kaki.",
+    "jawaban": "Kuku"
   },
   {
     "index": 196,
-    "soal": "Barat, Timur, Utara, Selatan",
-    "jawaban": "KOMPAS"
+    "soal": "Aku dapat menghibur orang. Aku biasanya ada di tempat karaoke. Aku mempunyai irama dan lirik.",
+    "jawaban": "Lagu"
   },
   {
     "index": 197,
-    "soal": "Tempat, Kereta, Tiket",
-    "jawaban": "STASIUN"
+    "soal": "Aku adalah sesuatu yang sering dinikmati ketika jam-jam istirahat umumnya malam hari. Aku biasanya empuk.",
+    "jawaban": "Kasur"
   },
   {
     "index": 198,
-    "soal": "Transportasi, Roda Tiga, Kayu, Kuda",
-    "jawaban": "DELMAN"
+    "soal": "Aku nomor tiga, tapi bukan angka. Aku akan panas dan dingin pada saat yang sama, tapi tidak pada waktu yang sama. Semua orang dekat denganku, tapi tidak semua orang tahu namaku.",
+    "jawaban": "Bumi"
   },
   {
     "index": 199,
-    "soal": "Roti, Stroberry, Cair",
-    "jawaban": "SELAI"
+    "soal": "Aku sejenis buah-buahan. Rupaku bulat, kuning, hijau. Rasanya ada yang manis ada yang asam dan seger diolah saat panas.",
+    "jawaban": "Jeruk"
   },
   {
     "index": 200,
-    "soal": "Pelihara, Lucu, Taring, Lonceng",
-    "jawaban": "KUCING"
+    "soal": "Aku memiliki bau yang kurang sedap. Badanku penuh dengan duri, namun di dalam tubuhku memiliki daging berwarna kuning yang enak.",
+    "jawaban": "Durian"
   },
   {
     "index": 201,
-    "soal": "Tabung, Air, Kaca",
-    "jawaban": "GELAS"
+    "soal": "Saat aku ditekan, aku menampilkan kata. Saat aku dikombinasikan, aku mengeluarkan hal menarik.",
+    "jawaban": "Keyboard"
   },
   {
     "index": 202,
-    "soal": "Penggalian, Benda, Kuno",
-    "jawaban": "ARKEOLOGI"
+    "soal": "Aku memiliki tempat hitam dan putih. Aku memiliki raja dan aku juga memiliki lawan yang saling menyerang.",
+    "jawaban": "Catur"
   },
   {
     "index": 203,
-    "soal": "Telinga, Alat, Musik, Bunyi",
-    "jawaban": "EARPHONE"
+    "soal": "Aku merupakan benda yang sering digunakan untuk digeser dan diklik.",
+    "jawaban": "Mouse"
   },
   {
     "index": 204,
-    "soal": "Duduk, Santai, Kayu, Kaki",
-    "jawaban": "KURSI"
+    "soal": "Warnaku bermacam-macam, bentukku bermacam-macam pula. Semua orang menyukai aku. Aku identik dengan seorang wanita.",
+    "jawaban": "Bunga"
   },
   {
     "index": 205,
-    "soal": "Sejarah, Wisata, Yogya",
-    "jawaban": "BOROBUDUR"
+    "soal": "Warnaku putih, ada juga yang coklat dan cair serta penuh gizi. Aku juga bermanfaat bagi anak-anak dan dewasa.",
+    "jawaban": "Susu"
   },
   {
     "index": 206,
-    "soal": "Runcing, Mulut, Makanan, Mengoyak",
-    "jawaban": "TARING"
+    "soal": "Aku datang tiba-tiba dan beramai-ramai.",
+    "jawaban": "Hujan"
   },
   {
     "index": 207,
-    "soal": "Riak, Gulung, Air, Pantai",
-    "jawaban": "OMBAK"
+    "soal": "Aku memiliki badan yang kecil. Aku juga selalu berkelompok dalam jumlah besar. Dalam hal apapun, kami selalu bekerja sama. Makanan yang aku suka berbau manis.",
+    "jawaban": "Semut"
   },
   {
     "index": 208,
-    "soal": "Udara, Bergerak, Sejuk",
-    "jawaban": "ANGIN"
+    "soal": "Aku memiliki badan yang bulat. Warnaku hijau, kuning, dan merah ketika aku matang. Aku biasa digunakan untuk bahan masakan atau dimakan langsung.",
+    "jawaban": "Tomat"
   },
   {
     "index": 209,
-    "soal": "Hewan, Langka, Hutan,Kalimantan",
-    "jawaban": "ORANG UTAN"
+    "soal": "Aku hidup di dalam tanah. Namun batangku hidup di luar dan daunku suka di lalapan.",
+    "jawaban": "Singkong"
   },
   {
     "index": 210,
-    "soal": "Alat, Musik, Doremi, Kotak",
-    "jawaban": "PIANO"
+    "soal": "Bentukku panjang, keriting, direbus, pake bumbu langsung makan.",
+    "jawaban": "Mie"
   },
   {
     "index": 211,
-    "soal": "Wadah, Air, Toilet, Besar",
-    "jawaban": "EMBER"
+    "soal": "Aku disimpan di saku, terdapat tempat kartu, uang, tagihan. Aku sering dibawa kemana-mana.",
+    "jawaban": "Dompet"
   },
   {
     "index": 212,
-    "soal": "Buah, Oranye, Bulat",
-    "jawaban": "JERUK"
+    "soal": "Aku dipake di jari. Aku biasanya dibuat untuk tunangan atau pernikahan. Aku berwarna emas, perak, atau perunggu.",
+    "jawaban": "Cincin"
   },
   {
     "index": 213,
-    "soal": "Rambut, Rapi, Rapat, Alat",
-    "jawaban": "SISIR"
+    "soal": "Aku dipake di leher. Ukuranku besar atau kecil. Aku berwarna-warni. Aku identik dengan wanita.",
+    "jawaban": "Kalung"
   },
   {
     "index": 214,
-    "soal": "Kotak, Tidur, Empuk",
-    "jawaban": "KASUR"
+    "soal": "Aku sebuah kertas, namun aku dijadikan kebutuhan sehari-hari yang memiliki nominal.",
+    "jawaban": "Uang"
   },
   {
     "index": 215,
-    "soal": "Udara, Ban, Naik/Turun",
-    "jawaban": "POMPA"
+    "soal": "Aku seekor hewan yang berkulit tebal, berwarna abu-abu. Aku memiliki cula.",
+    "jawaban": "Badak"
   },
   {
     "index": 216,
-    "soal": "Tipis, Tajam, Benang",
-    "jawaban": "JARUM"
+    "soal": "Aku terdapat di bagian bawah pohon atau tanaman. Aku menancap pada tanah.",
+    "jawaban": "Akar"
   },
   {
     "index": 217,
-    "soal": "Lap, Kaki, Kain",
-    "jawaban": "KESET"
+    "soal": "Aku sebuah tempat yang sangat luas, pesawat selalu datang mengunjungi aku. Aku juga sangat sibuk sekali dan tidak pernah tutup. Aku banyak dicari oleh para pengguna transportasi untuk bepergian antar negara.",
+    "jawaban": "Bandara"
   },
   {
     "index": 218,
-    "soal": "Tv, Alat, Jarak Jauh, Siaran",
-    "jawaban": "REMOT"
+    "soal": "Aku adalah hasil fermentasi susu. Rasaku asam. Aku memiliki warna kuning.",
+    "jawaban": "Keju"
   },
   {
     "index": 219,
-    "soal": "Madu, Hewan, Terbang",
-    "jawaban": "LEBAH"
+    "soal": "Aku adalah sebuah kendaraan. Aku biasanya mengantarkan orang ke berbagai pulau. Aku tidak dapat berfungsi bila berada di darat.",
+    "jawaban": "Perahu"
   },
   {
     "index": 220,
-    "soal": "Hewan, Dinding, Melata, Nempel",
-    "jawaban": "CICAK"
+    "soal": "Aku sebagai bahan dasar untuk membuat baju. Aku tipis dan halus. Aku dibeli dengan ukuran per meter.",
+    "jawaban": "Kain"
   },
   {
     "index": 221,
-    "soal": "Alat, Gesek, Bunyi, Musik",
-    "jawaban": "BIOLA"
+    "soal": "Aku digunakan untuk merapihkan. Aku bisa membuat rambut menjadi menarik.",
+    "jawaban": "Sisir"
   },
   {
     "index": 222,
-    "soal": "Panjang, Listrik, Pln",
-    "jawaban": "KABEL"
+    "soal": "Tugas utamaku adalah mengoyak makanan. Aku memiliki bentuk yang runcing. Aku berada di mulut.",
+    "jawaban": "Taring"
   },
   {
     "index": 223,
-    "soal": "Alat, Makan, Tajam",
-    "jawaban": "GARPU"
+    "soal": "Aku memiliki rasa yang pahit, tetapi aku sangat dibutuhkan oleh orang yang sakit.",
+    "jawaban": "Obat"
   },
   {
     "index": 224,
-    "soal": "Alat, Potong, Dapur",
-    "jawaban": "PISAU"
+    "soal": "Aku berada di pegunungan, dalam peribahasa aku juga dikaitkan dengan menabung.",
+    "jawaban": "Bukit"
   },
   {
     "index": 225,
-    "soal": "Api, Kayu, Kecil",
-    "jawaban": "KOREK"
+    "soal": "Aku memiliki bentuk tabung. Aku dapat menampung minyak dengan jumlah yang cukup banyak.",
+    "jawaban": "Drum"
   },
   {
     "index": 226,
-    "soal": "Pekerjaan, Pesawat, Mengendarai",
-    "jawaban": "PILOT"
+    "soal": "Aku menghasilkan cahaya sendiri. Kalau dilihat dari bumi aku sangat kecil.",
+    "jawaban": "Bintang"
   },
   {
     "index": 227,
-    "soal": "Kirim, Barang, Pekerjaan",
-    "jawaban": "KURIR"
+    "soal": "Tugas utamaku adalah melatih.",
+    "jawaban": "Pelatih"
   },
   {
     "index": 228,
-    "soal": "Pekerjaan, Hitung, Belanja, Toko",
-    "jawaban": "KASIR"
+    "soal": "Aku memiliki sifat yang sangat panas. Aku berasal dari gunung berapi.",
+    "jawaban": "Lahar"
   },
   {
     "index": 229,
-    "soal": "Pengobatan, Pekerjaan, Tradisional",
-    "jawaban": "TABIB"
+    "soal": "Aku berada di daerah pegunungan. Aku dapat mengurangi pandangan pengendara. Aku sering muncul di pagi hari.",
+    "jawaban": "Kabut"
   },
   {
     "index": 230,
-    "soal": "Pekerjaan, Mengendarai, Delman",
-    "jawaban": "KUSIR"
+    "soal": "Tebak siapakah aku? Aku berada di leher. Aku juga berada di kemeja. Aku akan rapih bila dilipat.",
+    "jawaban": "Kerah"
   },
   {
     "index": 231,
-    "soal": "Pohon, Lembah, Bukit, Lebat",
-    "jawaban": "HUTAN"
+    "soal": "Aku seorang omnivora. Aku juga seorang invertebrata. Aku dapat mengangkat sampai tiga kali berat badan mereka. Aku lebih kecil daripada klip kertas.",
+    "jawaban": "Semut"
   },
   {
     "index": 232,
-    "soal": "Anak, Mainan, Lucu",
-    "jawaban": "BONEKA"
+    "soal": "Aku satu-satunya mamalia bersayap. Aku tinggal di daerah tropis dan beriklim sedang. Makananku dapat bervariasi dari buah-buahan, serbuk sari, dan nektar, hingga darah hewan lain.",
+    "jawaban": "Kelelawar"
   },
   {
     "index": 233,
-    "soal": "Leher, Perhiasan, Emas",
-    "jawaban": "KALUNG"
+    "soal": "Aku seorang invertebrata. Aku tinggal di sepanjang pantai. Aku memiliki dua capit untuk melindungi diri.",
+    "jawaban": "Kepiting"
   },
   {
     "index": 234,
-    "soal": "Transportasi, Panjang, Rel",
-    "jawaban": "KERETA"
+    "soal": "Aku adalah mamalia darat terbesar. Aku makan sampai 350 pound per hari. Aku memiliki hidung yang panjang.",
+    "jawaban": "Gajah"
   },
   {
     "index": 235,
-    "soal": "Siaran, Sinyal, Tv, Alat",
-    "jawaban": "ANTENA"
+    "soal": "Aku tidak bisa dibakar. Aku juga tidak bisa ditenggelamkan ke dalam air.",
+    "jawaban": "Es"
   },
   {
     "index": 236,
-    "soal": "Tempat, Kendaraan, Penyimpanan, Luas",
-    "jawaban": "PARKIRAN"
+    "soal": "Aku mudah terbuang dan tapi tidak bisa dihentikan.",
+    "jawaban": "Waktu"
   },
   {
     "index": 237,
-    "soal": "Tiup, Bunyi, Alat",
-    "jawaban": "TEROMPET"
+    "soal": "Aku kehilangan kepalaku di pagi hari dan mendapatkan kembali di malam hari.",
+    "jawaban": "Bantal"
   },
   {
     "index": 238,
-    "soal": "Buah, Bulat, Air, Biji",
-    "jawaban": "SEMANGKA"
+    "soal": "Aku adalah cara untuk mengucapkan sampai jumpa kepada kekasih atau kerabat.",
+    "jawaban": "Peluk"
   },
   {
     "index": 239,
-    "soal": "Tempat, Guru, Murid, Belajar",
-    "jawaban": "SEKOLAH"
+    "soal": "Aku adalah mineral penting untuk kesehatan Anda.",
+    "jawaban": "Vitamin"
   },
   {
     "index": 240,
-    "soal": "Seram, Sepi, Tempat, Meninggal",
-    "jawaban": "KUBURAN"
+    "soal": "Aku bisa berlari sampai 35 mil per jam. Aku makan ratusan pon dedaunan dalam seminggu. Tinggi badanku membantuku untuk waspada terhadap predator. Aku adalah mamalia tertinggi.",
+    "jawaban": "Jerapah"
   },
   {
     "index": 241,
-    "soal": "Pesawat, Tiket, Penerbangan",
-    "jawaban": "BANDARA"
+    "soal": "Aku suka memutar tapi kepalaku tetap tegak. Setelah aku masuk, aku menjadi ketat.",
+    "jawaban": "Sekrup"
   },
   {
     "index": 242,
-    "soal": "Loreng, Senjata, Perang",
-    "jawaban": "TENTARA"
+    "soal": "Aku seorang mamalia. Aku juga seorang herbivora. Ketika aku takut, aku akan lari. Aku memiliki telinga yang besar untuk membantu aku mendengar.",
+    "jawaban": "Kelinci"
   },
   {
     "index": 243,
-    "soal": "Tajam, Kayu, Potong",
-    "jawaban": "GERGAJI"
+    "soal": "Aku seorang mamalia. Aku juga seorang karnivora. Aku berburu di malam hari. Aku adalah kucing terbesar dan terkuat.",
+    "jawaban": "Harimau"
   },
   {
     "index": 244,
-    "soal": "Alat, Meledak, Lempar, Tentara",
-    "jawaban": "GERANAT"
+    "soal": "Aku seorang invertebrata. Aku menyerap oksigen dan melepaskan karbon. Aku menjalani sebagian besar hidup saya di bawah tanah.",
+    "jawaban": "Cacing"
   },
   {
     "index": 245,
-    "soal": "Kotak, Komputer, Layar, Resolusi",
-    "jawaban": "MONITOR"
+    "soal": "Aku lebih tinggi dari raja.",
+    "jawaban": "Mahkota"
   },
   {
     "index": 246,
-    "soal": "Kotak, Kaca, Rumah, Depan",
-    "jawaban": "JENDELA"
+    "soal": "Aku terbang, namun aku tidak memiliki sayap. Aku menangis, namun aku tidak punya mata. Aku bisa membuat langit jadi gelap dan terang.",
+    "jawaban": "Awan"
   },
   {
     "index": 247,
-    "soal": "Sawah, Petani, Tanah, Alat",
-    "jawaban": "CANGKUL"
+    "soal": "Aku memiliki kaki di kepala aku.",
+    "jawaban": "Kutu"
   },
   {
     "index": 248,
-    "soal": "Dorong, Pedagang, Alat, Roda",
-    "jawaban": "GEROBAK"
+    "soal": "Aku adalah komputer bertenaga surya mini.",
+    "jawaban": "Kalkulator"
   },
   {
     "index": 249,
-    "soal": "Hewan, Leher, Tinggi, Coklat",
-    "jawaban": "JERAPAH"
+    "soal": "Semakin pendek saya, semakin besar saya.",
+    "jawaban": "Suhu"
   },
   {
     "index": 250,
-    "soal": "Bunyi, Kucing, Benda, Leher",
-    "jawaban": "LONCENG"
+    "soal": "Aku berasal dari laut dan berwarna putih seperti salju. Ketika aku kembali ke air, aku hilang tanpa bekas.",
+    "jawaban": "Garam"
   },
   {
     "index": 251,
-    "soal": "Tajam, Kertas, Potong, Alat",
-    "jawaban": "GUNTING"
+    "soal": "Tebak siapakah aku? Aku cepat saat kurus. Aku lamban saat gemuk. Angin adalah mimpi terburuk saya. Aku sangat berguna saat gelap gulita.",
+    "jawaban": "Lilin"
   },
   {
     "index": 252,
-    "soal": "Hewan, Wortel, Loncat",
-    "jawaban": "KELINCI"
+    "soal": "Aku lembut, berbulu, dan berada dekat dengan pintu. Akulah yang selalu tinggal di lantai.",
+    "jawaban": "Keset"
   },
   {
     "index": 253,
-    "soal": "Bekerja, Tempat, Karyawan",
-    "jawaban": "KANTOR"
+    "soal": "Aku bukan mainan meski banyak yang menggunakanku untuk kesenangan. Aku punya pantat, tapi aku tidak bisa buang air besar.",
+    "jawaban": "Rokok"
   },
   {
     "index": 254,
-    "soal": "Tempat, Obat, Jual, Racikan",
-    "jawaban": "APOTEK"
+    "soal": "Aku bisa berenang, tapi tidak pernah basah. Aku bisa berlari, tapi tidak pernah bosan. Aku mengikutimu kemana-mana, tapi tidak pernah mengucapakan sepatah kata pun.",
+    "jawaban": "Bayangan"
   },
   {
     "index": 255,
-    "soal": "Rumah Sakit, Merawat, Pekerjaan",
-    "jawaban": "SUSTER"
+    "soal": "Aku melihat apa yang kamu lihat, merasakan apa yang kamu rasakan. Aku tahu semua gerakanmu sebelum kamu melakukannya. Aku bahkan tahu gerakan yang tidak kamu buat.",
+    "jawaban": "Otak"
   },
   {
     "index": 256,
-    "soal": "Mengayomi, Wanita, Keamanan",
-    "jawaban": "POLWAN"
+    "soal": "Aku sangat tips. Aku bisa jatuh dari sebuah bangunan dan tidak hancur, tapi di air aku akan hancur.",
+    "jawaban": "Kertas"
   },
   {
     "index": 257,
-    "soal": "Suntik, Obat, Periksa, Pekerjaan",
-    "jawaban": "DOKTER"
+    "soal": "Aku tempat Titanic berada saat ini.",
+    "jawaban": "Atlantik"
   },
   {
     "index": 258,
-    "soal": "Tajam, Kesaktria, Senjata",
-    "jawaban": "PEDANG"
+    "soal": "Kamu perlu ribuan aku untuk membuat gambar digital.",
+    "jawaban": "Pixel"
   },
   {
     "index": 259,
-    "soal": "Cahaya, Malam, Alat, Batterai",
-    "jawaban": "SENTER"
+    "soal": "Jika kamu memiliki aku, kamu ingin berbagi aku. Begitu kamu berbagi aku, kamu tidak memiliki aku lagi.",
+    "jawaban": "Rahasia"
   },
   {
     "index": 260,
-    "soal": "Alas, Makanan, Bulat, Kaca",
-    "jawaban": "PIRING"
+    "soal": "Setiap orang membutuhkan aku tapi mereka memberi saya pergi setiap hari.",
+    "jawaban": "Uang"
   },
   {
     "index": 261,
-    "soal": "Serut, Kayu, Menulis, Alat",
-    "jawaban": "PENSIL"
+    "soal": "Anda membuangku di laut saat Anda menggunakan aku dan membawa aku masuk lagi saat Anda selesai.",
+    "jawaban": "Jangkar"
   },
   {
     "index": 262,
-    "soal": "Alas, Kaki, Karet",
-    "jawaban": "SANDAL"
+    "soal": "Aku adalah sejenis burung. Aku memiliki dua mata di depan dan banyak mata di ekor saya.",
+    "jawaban": "Merak"
   },
   {
     "index": 263,
-    "soal": "Kepiting, Hama Sawah, Air Tawar",
-    "jawaban": "YUYU"
+    "soal": "Semakin cepat kamu berlari, semakin sulit untuk menangkap aku.",
+    "jawaban": "Nafas"
   },
   {
     "index": 264,
-    "soal": "Burung, Hitam, Peniru",
-    "jawaban": "BEO"
+    "soal": "Aku digunakan untuk menyeberangi sungai. Aku berada di atas air.",
+    "jawaban": "Jembatan"
   },
   {
     "index": 265,
-    "soal": "Rekening, Keuangan, Pekerjaan",
-    "jawaban": "AKUNTAN"
+    "soal": "Aku adalah surga kecil yang dikelilingi oleh kekeringan dan panas. Aku biasanya terdapat di padang pasir.",
+    "jawaban": "Oasis"
   },
   {
     "index": 266,
-    "soal": "Bergelambir, Tungkai, Panjang, Besar",
-    "jawaban": "KALKUN"
+    "soal": "Aku adalah tempat di akhirat yang berisi orang-orang baik.",
+    "jawaban": "Surga"
   },
   {
     "index": 267,
-    "soal": "Tekhnology, Merancang, Pekerjaan",
-    "jawaban": "INSINYUR"
+    "soal": "Aku lima bersaudara yang memiliki Ibu tapi tak berbapak.",
+    "jawaban": "Jari"
   },
   {
     "index": 268,
-    "soal": "Capit, Merah, Kaki 10",
-    "jawaban": "KEPITING"
+    "soal": "Siapakah aku? Aku adalah sebuah lubang, aku bagian tubuh perempuan dan laki-laki sangat menyukaiku",
+    "jawaban": "Memek"
   },
   {
     "index": 269,
-    "soal": "Mercedez Benz, Tembok Berlin, Nazi",
-    "jawaban": "JERMAN"
+    "soal": "Siapakah aku? Aku adalah sebuah batang, aku bagian tubuh laki-laki dan perempuan sangat menyukaiku",
+    "jawaban": "Kontol"
   },
   {
-    "index": 270,
-    "soal": "Kapal, Kapten, Perwira",
-    "jawaban": "NAHKODA"
-  },
-  {
-    "index": 271,
-    "soal": "Gwyneth Paltrow, Paul Bettany, Johnny Depp",
-    "jawaban": "MORTDECAI"
-  },
-  {
-    "index": 272,
-    "soal": "Punggung Melengkung, Dikonsumsi, Hewan Laut",
-    "jawaban": "UDANG"
-  },
-  {
-    "index": 273,
-    "soal": "Penyunting, Berita, Naskah",
-    "jawaban": "EDITOR"
-  },
-  {
-    "index": 274,
-    "soal": "Daging Merah, Perenang, Handal, Ikan",
-    "jawaban": "TUNA"
-  },
-  {
-    "index": 275,
-    "soal": "Berilmu, Pengajar, Sekolah",
-    "jawaban": "GURU"
-  },
-  {
-    "index": 276,
-    "soal": "Pekerjaan, Peraga, Produk",
-    "jawaban": "MODEL"
-  },
-  {
-    "index": 277,
-    "soal": "Bantuan, Hukum, Terdakwa",
-    "jawaban": "PENGACARA"
-  },
-  {
-    "index": 278,
-    "soal": "Leher Panjang, Itik, Putih",
-    "jawaban": "ANGSA"
-  },
-  {
-    "index": 279,
-    "soal": "Molusca, Lambat, Bekicot",
-    "jawaban": "SIPUT"
-  },
-  {
-    "index": 280,
-    "soal": "Kabupaten, Pns, Pemimpin",
-    "jawaban": "BUPATI"
-  },
-  {
-    "index": 281,
-    "soal": "Lipan, Nokturnal, Beracun",
-    "jawaban": "KELABANG"
-  },
-  {
-    "index": 282,
-    "soal": "Hitam, Laut, Berduri",
-    "jawaban": "BABI LAUT"
-  },
-  {
-    "index": 283,
-    "soal": "Butir, Air, Langit",
-    "jawaban": "HUJAN"
-  },
-  {
-    "index": 284,
-    "soal": "Keyboard, Monitor, Wifi",
-    "jawaban": "LAPTOP"
-  },
-  {
-    "index": 285,
-    "soal": "Orang, Penyakit, Sembuh",
-    "jawaban": "DOKTER"
-  },
-  {
-    "index": 286,
-    "soal": "Buah, Hijau, Merah",
-    "jawaban": "SEMANGKA"
-  },
-  {
-    "index": 287,
-    "soal": "Olahraga, Bulu, Tangkis",
-    "jawaban": "BADMINTON"
-  },
-  {
-    "index": 288,
-    "soal": "Segitiga, Batu, Firaun",
-    "jawaban": "PIRAMIDA"
-  },
-  {
-    "index": 289,
-    "soal": "Candi, Megah, Buddha",
-    "jawaban": "BOROBUDUR"
-  },
-  {
-    "index": 290,
-    "soal": "Sansekerta, Ideologi Negara",
-    "jawaban": "PANCASILA"
-  },
-  {
-    "index": 291,
-    "soal": "Gunung, Jawa, Tertinggi",
-    "jawaban": "SEMERU"
-  },
-  {
-    "index": 292,
-    "soal": "Samudera, Terluas, Dunia",
-    "jawaban": "PASIFIK"
-  },
-  {
-    "index": 293,
-    "soal": "Burung, Lambang, Negara",
-    "jawaban": "GARUDA"
-  },
-  {
-    "index": 294,
-    "soal": "Benda, Atap, Rumah",
-    "jawaban": "GENTENG"
-  },
-  {
-    "index": 295,
-    "soal": "Gunung, Tertinggi, Dunia",
-    "jawaban": "EVEREST"
-  },
-  {
-    "index": 296,
-    "soal": "Penggalian, Benda, Kuno",
-    "jawaban": "ARKEOLOGI"
-  },
-  {
-    "index": 297,
-    "soal": "Kera, Hidung, Besar",
-    "jawaban": "BEKANTAN"
-  },
-  {
-    "index": 298,
-    "soal": "Pelabuhan, Pesawat, Terbang",
-    "jawaban": "BANDARA"
-  },
-  {
-    "index": 299,
-    "soal": "Hewan, Leher, Panjang",
-    "jawaban": "JERAPAH"
-  },
-  {
-    "index": 300,
-    "soal": "Kolam, Besar, Buatan",
-    "jawaban": "WADUK"
-  },
-  {
-    "index": 301,
-    "soal": "Buah, Kulit, Duri",
-    "jawaban": "DURIAN"
+  "index": 270,
+  "soal": "Siapakah aku? Aku berwarna hitam biasa ada di dalam celana tiap orang.",
+  "jawaban": "Jembut"
   }
 ]
